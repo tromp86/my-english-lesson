@@ -21,6 +21,12 @@ section {
 .container{
   height: 300px;
 }
+span{
+  position: absolute;
+  right: 10px;
+  color: slategray;
+  letter-spacing: 2px;
+}
 h1 {
   width: 100%;
   text-align: center;
@@ -45,7 +51,6 @@ a {
 }
 b {
   font-size: 2rem;
-  /* color: slategray; */
   letter-spacing: 4px;
 }
 button {
