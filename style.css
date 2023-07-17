@@ -102,8 +102,8 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   transition: transform 0.5s ease-in;
-  width: 190px;
-  height: 260px;
+  width: 170px;
+  height: 280px;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   margin-bottom: 60px;
   border: 1px solid slategray;
@@ -136,8 +136,8 @@ button:hover {
   background: #e8e8e8;
   transition: all 250ms;
   overflow: hidden;
-  width: 200px;
-  transform: translate(-5px, 30px);
+  width: 180px;
+  transform: translate(0px, 30px);
 }
 
 .button-container button::before {
@@ -183,7 +183,7 @@ footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   margin: auto;
-  width: 250px;
+  width: 220px;
 }
 .counter-p{
   color: #333333;
