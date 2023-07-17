@@ -48,7 +48,7 @@ const allWord = [
 const allWordPhrases = [
   { "let's go": "ходімо" },
   { "let's do it": "зробимо це" },
-  { "зробимо це": "підійди сюди" },
+  { "come here": "підійди сюди" },
   { "follow me": "йди за мною" },
   { "keep going": "продовжуй" },
   { "wait here": "почикай тут" },
