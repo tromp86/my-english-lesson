@@ -67,6 +67,7 @@ const allWordPhrases = [
   { "I do not care": "мені всеодно" },
   { "I did it": "я зробив це" },
   { "It's up to you": "тобі вирішувати" },
+  { "I'd like": "меніб хотілось" },
 ];
 
 const allWordQuestion = [
@@ -76,6 +77,7 @@ const allWordQuestion = [
   { "you bring something?": "ти приносиш щось?" },
   { "is it getting better?": "це стає кращим?" },
   { "what are you wearing?": "у що ти одягнений?" },
+  { "could I have": "чи можна мені?" },
 ];
 
 export { allWord50, allWord, allWordPhrases, allWordQuestion };
