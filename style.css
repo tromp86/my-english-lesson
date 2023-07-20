@@ -27,7 +27,7 @@ section {
   height: 500px;
 }
 .container {
-  height: 200px;
+  height: 300px;
 }
 span {
   position: absolute;
@@ -85,14 +85,14 @@ button {
   margin: 10px;
 }
 button:active {
-  animation: 0.4s slide ;
+  animation: 0.7s slide ;
 }
 @keyframes slide {
   from {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(1000px);
+    transform: translateX(5px);
   }
 }
 button:disabled {
@@ -192,17 +192,6 @@ footer {
   color: #555555;
   font-size: 18px;
 }
-#clickCount {
-  background-color: #333333 ;
-  color: #f2f2f2;
-  padding: 10px;
-  font-size: 29px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  margin: auto;
-  width: 220px;
-}
 .counter-p{
   color: #333333;
   font-size: 20px;
@@ -216,4 +205,21 @@ footer {
 }
 .definition {
   margin-top: 5px;
+}
+.clickCount{
+  background-color: #333333 ;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 29px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: auto;
+  width: 220px;
+}
+.clickCountFixed{
+  position: fixed;
+  margin-top: 25px;
+  color: #e20000;
+  font-size: 17px;
 }

@@ -62,7 +62,7 @@ document.addEventListener('click', (event) => {
     const divDefinition = event.target.parentNode.previousElementSibling;
     divDefinition.style.filter = 'blur(0px)';
     clickCount++;
-    clickCountElement.textContent = clickCount;
+    clickCountElement.textContent = 'Кількість слів: ' + clickCount;
   }
 });
 // new
