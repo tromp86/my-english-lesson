@@ -12,7 +12,7 @@ body {
 }
 section {
   max-width: 1000px;
-  height: auto;
+  /* height: auto; */
   padding: 3px;
   margin: auto;
   display: flex;
@@ -23,8 +23,11 @@ section {
 .wrap {
   margin-bottom: 20px;
 }
+.containerMain {
+  height: 500px;
+}
 .container {
-  height: 250px;
+  height: 200px;
 }
 span {
   position: absolute;
@@ -43,6 +46,7 @@ h1 {
   position: relative;
   left: -7px;
 }
+
 h2 {
   font-size: 1.4rem;
   font-weight: 800;
@@ -80,7 +84,17 @@ button {
   width: 200px;
   margin: 10px;
 }
-
+button:active {
+  animation: 0.4s slide ;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
+}
 button:disabled {
   pointer-events: none;
 }
@@ -105,14 +119,15 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   transition: transform 0.5s ease-in;
-  width: 170px;
+  width: 180px;
   height: 280px;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   margin-bottom: 60px;
   border: 1px solid slategray;
   border-radius: 10px;
-  padding: 16px;
+  padding: 15px;
 }
+
 .boxWords {
   width: 200px;
   height: 50px;
@@ -126,9 +141,9 @@ button:hover {
 .boxWords--move-right.box--visible {
   transform: translate(10px, 30px);
 }
-.button-container {
+/* .button-container {
   transform: translateY(10px);
-}
+} */
 
 .button-container button {
   border: none;
@@ -140,7 +155,7 @@ button:hover {
   transition: all 250ms;
   overflow: hidden;
   width: 180px;
-  transform: translate(0px, 30px);
+  transform: translate(0px, 10px);
 }
 
 .button-container button::before {
