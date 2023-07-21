@@ -45,6 +45,11 @@ const allWord = [
   { frequent: "часто" },
   { everyone: "усі" },
   { trip: "подорож" },
+  { among: "серед" },
+  { neighborhood: "околиці" },
+  { average: "середній" },
+  { majority: "більшість" },
+  { half: "половина" },
 ];
 
 const allWordPhrases = [

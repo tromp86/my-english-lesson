@@ -84,7 +84,7 @@ button {
   width: 200px;
   margin: 10px;
 }
-button:active {
+/* button:active {
   animation: 0.7s slide ;
 }
 @keyframes slide {
@@ -97,7 +97,7 @@ button:active {
 }
 button:disabled {
   pointer-events: none;
-}
+} */
 
 button:hover {
   color: white !important;
