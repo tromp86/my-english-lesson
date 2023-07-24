@@ -1,4 +1,4 @@
-import { allWord50, allWord, allWordPhrases, allWordQuestion, vehicle, house, kitchen } from './word.js';
+import { allWord50, allWord, allWordPhrases, allWordQuestion, reWord, house } from './word.js';
 
 function createWordElements(wordArray, outputDivId) {
   const outputDiv = document.getElementById(outputDivId);
@@ -52,9 +52,8 @@ createWordElements(allWord50, 'output-allWord50');
 createWordElements(allWord, 'output-allWord');
 createWordElements(allWordPhrases, 'output-allWordPhrases');
 createWordElements(allWordQuestion, 'output-allWordQuestion');
-createWordElements(vehicle, 'output-vehicle');
 createWordElements(house, 'output-house');
-createWordElements(kitchen, 'output-kitchen');
+createWordElements(reWord, 'output-reWord');
 
 
 document.addEventListener('click', (event) => {

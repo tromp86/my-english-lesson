@@ -50,6 +50,20 @@ const allWord = [
   { average: "середній" },
   { majority: "більшість" },
   { half: "половина" },
+  { example: "приклад" },
+  { explanation: "пояснення" },
+  { preparation: "підготовка" },
+  { difficulties: "труднощі, складність" },
+];
+
+const reWord = [
+  { few: "декілька" },
+  { "to break off": "відокремити, відламати" },
+  { "to approach": "наближатися" },
+  { "to match": "відповідати підходити" },
+  { "to blow": "гасити підривати" },
+  { "to consome": "споживати, поглинати" },
+  { "to find out": "зясовувати" },
 ];
 
 const allWordPhrases = [
@@ -183,4 +197,4 @@ const kitchen = [
   { napkin: "серветка" },
 ];
 
-export { allWord50, allWord, allWordPhrases, allWordQuestion, vehicle, house, kitchen };
+export { allWord50, allWord, allWordPhrases, allWordQuestion, reWord, house};
