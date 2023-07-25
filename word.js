@@ -64,6 +64,12 @@ const reWord = [
   { "to blow": "гасити підривати" },
   { "to consome": "споживати, поглинати" },
   { "to find out": "зясовувати" },
+  { "to earn": "заробляти" },
+  { "cupboard": "кухонна шафа" },
+  { "to survey": "опитувати, оглядати" },
+  { "to hold out": "триматися до кінця" },
+  { "to aford": "дозво. фінансово" },
+  { "to go over": "повторювати" },
 ];
 
 const allWordPhrases = [
@@ -116,7 +122,7 @@ const vehicle = [
   { sparkPlug: "свічка запалювання" },
   { ignitionCoil: "котушка запалювання" },
   { fuelPump: "паливний насос" },
-  { trunk: "паливний насос" },
+  { trunk: "багажник" },
 ];
 const house = [
   { roof: "дах" },
@@ -152,49 +158,40 @@ const house = [
   { alarmSystem: "сигналізація" },
   { intercom: "домофон" },
 ];
-const kitchen = [
-  { stove: "плита" },
-  { oven: "духовка" },
-  { sink: "раковина" },
-  { dishwasher: "посудомийна машина" },,
-  { kettle: "чайник" },
-  { coffeeMaker: "кавоварка" },
-  { cuttingBoard: "дошка для різання" },
-  { knife: "ніж" },
-  { fork: "виделка" },
-  { spoon: "ложка" },
-  { spatula: "лопатка" },
-  { ladle: "ковш" },
-  { pot: "кастрюля" },
-  { pan: "сковорода" },
-  { bakingSheet: "пекарський лист" },
-  { mixingBowl: "миска для змішування" },
-  { measuringCup: "мірна чашка" },
-  { cuttingKnife: "кухонний ніж" },
-  { colander: "дуршлаг" },
-  { grater: "терка" },
-  { peeler: "шкребок" },
-  { canOpener: "відкривачка для банок" },
-  { utensilHolder: "підставка для приладдя" },
-  { mixingSpoon: "місцева ложка" },
-  { whisk: "венчик" },
-  { sifter: "сито" },
-  { cuttingBoard: "дошка для різання" },
-  { rollingPin: "каток для тіста" },
-  { ovenMitts: "рукавиці для духовки" },
-  { apron: "фартух" },
-  { potHolder: "підставка для каструлі" },
-  { bakingDish: "форма для запікання" },
-  { spiceRack: "стійка для спецій" },
-  { dishRack: "стійка для посуду" },
-  { garbageCan: "смітник" },
-  { diningTable: "стіл для обіду" },
-  { chair: "стілець" },
-  { plate: "тарілка" },
-  { bowl: "чаша" },
-  { cup: "чашка" },
-  { glass: "склянка" },
-  { napkin: "серветка" },
+
+const number = [
+  { twelve: "12" },
+  { thirteen: "13" },
+  { fourteen: "14" },
+  { fifteen: "15" },
+  { sixteen: "16" },
+  { seventeen: "17" },
+  { eighteen: "18" },
+  { nineteen: "19" },
+  { twenty: "20" },
+  { thirty: "30" },
+  { forty: "40" },
+  { fifty: "50" },
+  { sixty: "60" },
+  { seventy: "70" },
+  { eighty: "80" },
+  { ninety: "90" },
 ];
 
-export { allWord50, allWord, allWordPhrases, allWordQuestion, reWord, house};
+const months = [
+  { January: "січень" },
+  { February: "лютий" },
+  { March: "березень" },
+  { April: "квітень" },
+  { May: "травень" },
+  { June: "червень" },
+  { July: "липень" },
+  { August: "серпень" },
+  { September: "вересень" },
+  { October: "жовтень" },
+  { November: "листопад" },
+  { December: "грудень" }
+  ];
+
+
+export { allWord50, allWord, allWordPhrases, allWordQuestion, reWord, house, number, months};
