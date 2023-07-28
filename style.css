@@ -83,21 +83,6 @@ button {
   width: 200px;
   margin: 10px;
 }
-/* button:active {
-  animation: 0.7s slide ;
-}
-@keyframes slide {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(5px);
-  }
-}
-button:disabled {
-  pointer-events: none;
-} */
-
 button:hover {
   color: white !important;
   background-color: #1a1a1a;
