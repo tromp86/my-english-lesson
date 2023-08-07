@@ -92,8 +92,8 @@ button:hover {
 .box--grow .definition {
   margin-bottom: 10px;
   color: rgb(58, 59, 59);
-  font-size: 1.1rem;
-  filter: blur(5px);
+  font-size: 1.2rem;
+  filter: blur(4px);
 }
 
 .box {

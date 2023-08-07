@@ -64,23 +64,23 @@ function updateClickCount() {
   clickCountElement.textContent = clickCount;
 
   switch (clickCount) {
-    case 5:
+    case 10:
       smile.textContent = "😁";
       text.textContent = "super you very strong student";
       break;
-    case 10:
+    case 20:
       smile.textContent = "😊";
       text.textContent = "ну нічого could be better";
       break;
-    case 20:
+    case 30:
       smile.textContent = "🤨";
       text.textContent = "нуу недуже якщо чесно";
       break;
-    case 30:
+    case 40:
       smile.textContent = "😢";
       text.textContent = "very bad";
       break;
-    case 40:
+    case 50:
       smile.textContent = "🤡";
       text.textContent = "ти клоун?";
       break;
