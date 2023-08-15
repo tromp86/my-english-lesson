@@ -218,6 +218,7 @@ const months = [
 ];
 
 const englishPrime = [
+  { your : "твій" },
   { sell : "продавати" },
   { meet : "зустріти" },
   { walk : "ходити" },
