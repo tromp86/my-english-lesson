@@ -7,6 +7,7 @@ import {
   house,
   number,
   months,
+  englishPrime,
 } from "./word.js";
 
 function createWordElements(wordArray, outputDivId) {

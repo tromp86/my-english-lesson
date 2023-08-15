@@ -1,5 +1,6 @@
 const allWord50 = [
   { be: "бути" },
+  { do : "робити" },
   { to: "до" },
   { of: "з, про" },
   { for: "для" },
@@ -70,29 +71,29 @@ const reWord = [
   { "to consome": "споживати, поглинати" },
   { "to find out": "зясовувати" },
   { "to earn": "заробляти" },
-  { "cupboard": "кухонна шафа" },
+  { cupboard: "кухонна шафа" },
   { "to survey": "опитувати, оглядати" },
   { "to hold out": "триматися до кінця" },
   { "to aford": "дозво. фінансово" },
   { "to go over": "повторювати" },
   { "to lose": "втрачати, програвати" },
-  { "could": "міг, може бути" },
+  { could: "міг, може бути" },
   { "to extract": "витягувати, добувати" },
-  { "forego": "відмовлятися" },
-  { "change": "здача" },
-  { "contest": "конкурс, змагання" },
+  { forego: "відмовлятися" },
+  { change: "здача" },
+  { contest: "конкурс, змагання" },
   { "to crop": "обрізати, підстригти" },
-  { "loose": "вільний" },
-  { "influence": "впливати" },
-  { "wide": "широкий" },
+  { loose: "вільний" },
+  { influence: "впливати" },
+  { wide: "широкий" },
   { "to mind": "заперечувати, слухатися" },
   { "to persuade": "переконувати" },
-  { "representative": "представник" },
-  { "source": "джерело, початковий" },
+  { representative: "представник" },
+  { source: "джерело, початковий" },
   { "to supplement": "доповнювати" },
   { "to owe": "заборгувати" },
   { "to blow out": "підірвати, гасити" },
-  { "interweave": "переплітати" },
+  { interweave: "переплітати" },
 ];
 
 const allWordPhrases = [
@@ -213,8 +214,30 @@ const months = [
   { September: "вересень" },
   { October: "жовтень" },
   { November: "листопад" },
-  { December: "грудень" }
-  ];
+  { December: "грудень" },
+];
 
+const englishPrime = [
+  { sell : "продавати" },
+  { meet : "зустріти" },
+  { walk : "ходити" },
+  { carry : "тримати" },
+  { "put on, in" : "поставити" },
+  { "pick up" : "підняти" },
+  { "talk (to)" : "говорити" },
+  { take : "брати" },
+  { tell : "розмова" },
+  { wear : "носити" },
+];
 
-export { allWord50, allWord, allWordPhrases, allWordQuestion, reWord, house, number, months};
+export {
+  allWord50,
+  allWord,
+  allWordPhrases,
+  allWordQuestion,
+  reWord,
+  house,
+  number,
+  months,
+  englishPrime,
+};
