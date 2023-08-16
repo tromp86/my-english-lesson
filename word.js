@@ -61,6 +61,7 @@ const allWord = [
   { wishes: "бажання" },
   { tries: "коштувати" },
   { either: "також, теж" },
+  { sad: "сумно" },
 ];
 
 const reWord = [
@@ -231,6 +232,22 @@ const englishPrime = [
   { wear : "носити" },
 ];
 
+const SentencePattern = [
+  {"Do you/we/they/your meet" : "ви зустрічаєтеся"},
+  {"Yes I meet" : "так я зустрічаюсь"},
+  {"No I do not meet" : "ні я не зустрічаюсь"},
+  {"You don't meet" : "ви не зустрічаєтесь"},
+  {"Does he meetS" : "так він зустрічається"},
+  {"No, he does not meetS" : "ні він не зустрічається"},
+  {"She doesn't meet" : "вона не зустрічаєця"},
+  {"Do you want/like to talk" : "чи ти хочеш поговорити"},
+  {"Yes I want/like to talk" : "так я хочу поговорити"},
+  {"No, I don't want to talk" : "ні я нехочу поговорити"},
+  {"Does, he want to talk" : "ні я нехочу поговорити"},
+  {"Yes, he wantS to talk" : "так він хоче поговорити"},
+  {"No,he does't to talk" : "ні він не хоче поговорити"},
+]
+
 export {
   allWord50,
   allWord,
@@ -241,4 +258,5 @@ export {
   number,
   months,
   englishPrime,
+  SentencePattern,
 };

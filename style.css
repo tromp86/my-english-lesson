@@ -23,7 +23,7 @@ section {
   margin-bottom: 20px;
 }
 .containerMain {
-  height: 560px;   /* +60 or -60*/ 
+  height: 620px;   /* +60 or -60*/ 
 }
 .container {
   height: 300px;
@@ -49,6 +49,19 @@ h1 {
 h2 {
   font-size: 1.4rem;
   font-weight: 800;
+  word-break: break-all;
+  hyphens: auto;
+  width: 100%;
+}
+.fix button{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  font-size: 0.9rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 .word {
   font-weight: bold;
@@ -103,7 +116,7 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   transition: transform 0.5s ease-in;
-  width: 180px;
+  width: 200px;
   height: 280px;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   margin-bottom: 60px;

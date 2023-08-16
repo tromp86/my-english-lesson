@@ -8,6 +8,7 @@ import {
   number,
   months,
   englishPrime,
+  SentencePattern,
 } from "./word.js";
 
 function createWordElements(wordArray, outputDivId) {
@@ -67,21 +68,25 @@ function updateClickCount() {
   switch (clickCount) {
     case 10:
       smile.textContent = "😁";
-      text.textContent = "super you very strong student";
+      text.textContent = "super you very strong";
       break;
     case 20:
       smile.textContent = "😊";
-      text.textContent = "ну нічого could be better";
+      text.textContent = "could be better";
       break;
     case 30:
       smile.textContent = "🤨";
-      text.textContent = "нуу недуже якщо чесно";
+      text.textContent = "not good";
       break;
     case 40:
       smile.textContent = "😢";
       text.textContent = "very bad";
       break;
     case 50:
+      smile.textContent = "😪";
+      text.textContent = "pick up your ass and go learn";
+      break;
+    case 60:
       smile.textContent = "🤡";
       text.textContent = "ти клоун?";
       break;
@@ -96,8 +101,11 @@ createWordElements(allWordPhrases, "output-allWordPhrases");
 createWordElements(allWordQuestion, "output-allWordQuestion");
 createWordElements(house, "output-house");
 createWordElements(reWord, "output-reWord");
+createWordElements(englishPrime, "output-prime");
 createWordElements(number, "number");
 createWordElements(months, "months");
+
+createWordElements(SentencePattern, "SentencePattern");
 
 document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {
@@ -107,7 +115,7 @@ document.addEventListener("click", (event) => {
   }
 });
 
-const scrollAnimations = (entries, observer) => {
+const scrollAnimations = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting && entry.intersectionRatio == 1) {
       entry.target.classList.add("box--visible");
@@ -118,7 +126,7 @@ const scrollAnimations = (entries, observer) => {
 };
 
 const options = {
-  threshold: 1.0,
+  threshold: 1,
 };
 const observer = new IntersectionObserver(scrollAnimations, options);
 
