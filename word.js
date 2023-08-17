@@ -229,7 +229,22 @@ const englishPrime = [
   { "talk (to)" : "говорити" },
   { take : "брати" },
   { tell : "розмова" },
-  { wear : "носити" },
+  { fine : "добре" },
+  { kind : "доброзичливий" },
+  { great : "чудовий прикрасний" },
+  { dry : "сухий" },
+  { wet : "вологий" },
+  { cute : "милий" },
+  { boring : "нудний" },
+  { messy : "брудний" },
+  { neat : "охайний" },
+  { difficult : "тяжкий" },
+  { simple : "простий" },
+  { weak : "слабкий" },
+  { strong : "сильний" },
+  { poor : "бідний" },
+  { mean : "жадібний" },
+  { rich : "багатий" },
 ];
 
 const SentencePattern = [
@@ -246,6 +261,15 @@ const SentencePattern = [
   {"Does, he want to talk" : "ні я нехочу поговорити"},
   {"Yes, he wantS to talk" : "так він хоче поговорити"},
   {"No,he does't to talk" : "ні він не хоче поговорити"},
+  {"Are you a/an doctor" : "Чи він лікар?"},
+  {"Yes, I am a/an" : "так він лікар"},
+  {"No, I am not a/an" : "ні він не лікар"},
+  {"Is she a/an " : "чи вона є?"},
+  {"No, she is not" : "ні вона не є"},
+  {"Are you/we doctorS" : "чи вони є"},
+  {"Yes you/we are doctorS" : "так вони є"},
+  {"No you are not doctorS" : "ні вони не"},
+  {"No we aren't doctorS" : "ні вони не"},
 ]
 
 export {
