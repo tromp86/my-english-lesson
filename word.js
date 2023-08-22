@@ -62,6 +62,14 @@ const allWord = [
   { tries: "коштувати" },
   { either: "також, теж" },
   { sad: "сумно" },
+  { meaning: "зміст, сенс" },
+  { major: "спеціальність" },
+  { nearby: "неподалік" },
+  { especially: "особливий" },
+  { crowded: "переповнений" },
+  { often: "часто" },
+  { adjectives: "прикметник" },
+  { still: "досі" },
 ];
 
 const reWord = [
@@ -270,6 +278,15 @@ const SentencePattern = [
   {"Yes you/we are doctorS" : "так вони є"},
   {"No you are not doctorS" : "ні вони не"},
   {"No we aren't doctorS" : "ні вони не"},
+  {"Were you a/an" : "чи був ти кимось?"},
+  {"Yes, I was a/an pretty man" : "так я був кимось"},
+  {"No, I was a/an " : "ні я не був кимось"},
+  {"Was she/it a/an " : "чи це було чимось"},
+  {"Yes, it was a/an " : "так це було чимось"},
+  {"No, he was not a/an " : "ні це не було чимось"},
+  {"Were you we/they" : "були ми/ви комось"},
+  {"Yes, we were doctorS" : "так ми були лікарями"},
+  {"No, you/they was not " : "ні ви/вони не були комось"},
 ]
 
 export {
