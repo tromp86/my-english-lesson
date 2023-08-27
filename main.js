@@ -129,9 +129,10 @@ const scrollAnimations = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting && entry.intersectionRatio == 1) {
       entry.target.classList.add("box--visible");
-    } else {
-      entry.target.classList.remove("box--visible");
-    }
+    } 
+    // else {
+    //   entry.target.classList.remove("box--visible");
+    // }
   });
 };
 
