@@ -62,7 +62,6 @@ const allWord = [
   { tries: "коштувати" },
   { either: "також, теж" },
   { sad: "сумно" },
-  { meaning: "зміст, сенс" },
   { major: "спеціальність" },
   { nearby: "неподалік" },
   { especially: "особливий" },
