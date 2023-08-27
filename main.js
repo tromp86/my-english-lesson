@@ -8,7 +8,12 @@ import {
   number,
   months,
   englishPrime,
-  SentencePattern,
+  irregularVerbs,
+  SentencePattern1,
+  SentencePattern2,
+  SentencePattern3,
+  SentencePattern4,
+  SentencePattern5,
 } from "./word.js";
 
 function createWordElements(wordArray, outputDivId) {
@@ -102,10 +107,15 @@ createWordElements(allWordQuestion, "output-allWordQuestion");
 createWordElements(house, "output-house");
 createWordElements(reWord, "output-reWord");
 createWordElements(englishPrime, "output-prime");
+createWordElements(irregularVerbs, "irregularVerbs");
 createWordElements(number, "number");
 createWordElements(months, "months");
 
-createWordElements(SentencePattern, "SentencePattern");
+createWordElements(SentencePattern1, "SentencePattern1");
+createWordElements(SentencePattern2, "SentencePattern2");
+createWordElements(SentencePattern3, "SentencePattern3");
+createWordElements(SentencePattern4, "SentencePattern4");
+createWordElements(SentencePattern5, "SentencePattern5");
 
 document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {

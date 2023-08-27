@@ -253,9 +253,28 @@ const englishPrime = [
   { poor : "бідний" },
   { mean : "жадібний" },
   { rich : "багатий" },
+  { quarterpast : "чверть 15%" },
 ];
 
-const SentencePattern = [
+const irregularVerbs = [
+  {"come/came" : "кейм"},
+  {"break/broke" : "ламати"},
+  {"speak/spoke" : "говорити"},
+  {"write/wrote" : "писати"},
+  {"eat/ate" : "ейт"},
+  {"sleep/slept" : "спати"},
+  {"run/ran" : "рен"},
+  {"sit/sat" : "сет"},
+  {"read/read" : "ред"},
+  {"have/had" : "мати"},
+  {"get/got" : "отримати"},
+  {"put/put" : "поставити"},
+  {"go/went" : "йти"},
+  {"come/came" : "приходити"},
+  {"come/came" : "приходити"},
+]
+
+const SentencePattern1 = [
   {"Do you/we/they/your meet" : "ви зустрічаєтеся"},
   {"Yes I meet" : "так я зустрічаюсь"},
   {"No I do not meet" : "ні я не зустрічаюсь"},
@@ -263,12 +282,17 @@ const SentencePattern = [
   {"Does he meetS" : "так він зустрічається"},
   {"No, he does not meetS" : "ні він не зустрічається"},
   {"She doesn't meet" : "вона не зустрічаєця"},
+];
+
+const SentencePattern2 = [
   {"Do you want/like to talk" : "чи ти хочеш поговорити"},
   {"Yes I want/like to talk" : "так я хочу поговорити"},
   {"No, I don't want to talk" : "ні я нехочу поговорити"},
   {"Does, he want to talk" : "ні я нехочу поговорити"},
   {"Yes, he wantS to talk" : "так він хоче поговорити"},
   {"No,he does't to talk" : "ні він не хоче поговорити"},
+];
+const SentencePattern3 = [
   {"Are you a/an doctor" : "Чи він лікар?"},
   {"Yes, I am a/an" : "так він лікар"},
   {"No, I am not a/an" : "ні він не лікар"},
@@ -278,16 +302,25 @@ const SentencePattern = [
   {"Yes you/we are doctorS" : "так вони є"},
   {"No you are not doctorS" : "ні вони не"},
   {"No we aren't doctorS" : "ні вони не"},
+];
+const SentencePattern4 = [
   {"Were you a/an" : "чи був ти кимось?"},
-  {"Yes, I was a/an pretty man" : "так я був кимось"},
+  {"Yes, I was a/an pretty man" : "так я був чотким чуваком"},
   {"No, I was a/an " : "ні я не був кимось"},
-  {"Was she/it a/an " : "чи це було чимось"},
+  {"Was she/it a/an " : "чи воно було чимось"},
   {"Yes, it was a/an " : "так це було чимось"},
   {"No, he was not a/an " : "ні це не було чимось"},
   {"Were you we/they" : "були ми/ви комось"},
   {"Yes, we were doctorS" : "так ми були лікарями"},
   {"No, you/they was not " : "ні ви/вони не були комось"},
-]
+];
+const SentencePattern5 = [
+  {"When did you/I swim" : "коли ти плавав"},
+  {"When did she/they walked" : "коли вони гуляли"},
+  {"I swam last month" : "я плавав минулого місяця"},
+  {"They waled in the spring " : "они гуляли весною"},
+];
+const SentencePattern6 = [];
 
 export {
   allWord50,
@@ -299,5 +332,10 @@ export {
   number,
   months,
   englishPrime,
-  SentencePattern,
+  irregularVerbs,
+  SentencePattern1,
+  SentencePattern2,
+  SentencePattern3,
+  SentencePattern4,
+  SentencePattern5,
 };

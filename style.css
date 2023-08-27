@@ -23,7 +23,9 @@ section {
   margin-bottom: 20px;
 }
 .containerMain {
-  height: 620px;   /* +60 or -60*/ 
+  position: absolute;
+  /* height: 620px;    */
+  /* +60 or -60*/ 
 }
 .container {
   height: 300px;
