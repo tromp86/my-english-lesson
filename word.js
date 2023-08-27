@@ -254,6 +254,8 @@ const englishPrime = [
   { mean : "жадібний" },
   { rich : "багатий" },
   { quarterpast : "чверть 15%" },
+  { only : "тільки" },
+  { together : "разом" },
 ];
 
 const irregularVerbs = [
