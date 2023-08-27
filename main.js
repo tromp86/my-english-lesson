@@ -127,7 +127,7 @@ document.addEventListener("click", (event) => {
 
 const scrollAnimations = (entries) => {
   entries.forEach((entry) => {
-    if (entry.isIntersecting && entry.intersectionRatio == 1) {
+    if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
       entry.target.classList.add("box--visible");
     } 
     // else {
@@ -135,6 +135,16 @@ const scrollAnimations = (entries) => {
     // }
   });
 };
+
+// const scrollAnimations = (entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
+//       entry.target.classList.add("box--visible");
+//     } else if (entry.intersectionRatio < 0.5) {
+//       entry.target.classList.remove("box--visible");
+//     }
+//   });
+// };
 
 const options = {
   threshold: 1,
