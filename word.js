@@ -17,6 +17,7 @@ const allWord50 = [
   { out: "зовні, поза" },
   { who: "хто" },
   { which: "який" },
+  { can: "можу" },
 ];
 
 const allWord = [
@@ -69,6 +70,8 @@ const allWord = [
   { often: "часто" },
   { adjectives: "прикметник" },
   { still: "досі" },
+  { always: "завжди" },
+  { must: "обов'язково" },
 ];
 
 const reWord = [
@@ -140,56 +143,56 @@ const allWordQuestion = [
   { "what do you do for a living?": "Чим ви займаєтесь?" },
 ];
 
-const vehicle = [
-  { brake: "гальма" },
-  { tire: "шина" },
-  { alternator: "генератор" },
-  { suspension: "підвіска" },
-  { exhaustSystem: "вихлопна система" },
-  { headlight: "фара" },
-  { taillight: "заднє світло" },
-  { windshield: "лобове скло" },
-  { wiper: "двірник" },
-  { fuelTank: "паливний бак" },
-  { sparkPlug: "свічка запалювання" },
-  { ignitionCoil: "котушка запалювання" },
-  { fuelPump: "паливний насос" },
-  { trunk: "багажник" },
-];
-const house = [
-  { roof: "дах" },
-  { ceiling: "стеля" },
-  { chimney: "димар" },
-  { stairs: "сходи" },
-  { fence: "пагорб" },
-  { gate: "ворота" },
-  { pathway: "доріжка" },
-  { porch: "веранда" },
-  { attic: "горище" },
-  { basement: "підвал" },
-  { livingRoom: "вітальня" },
-  { bedroom: "спальня" },
-  { bathroom: "ванна кімната" },
-  { diningRoom: "їдальня" },
-  { study: "кабінет" },
-  { fireplace: "камін" },
-  { roofing: "покрівля" },
-  { plumbing: "сантехніка" },
-  { heating: "опалення" },
-  { skylight: "дахове вікно" },
-  { siding: "обшивка" },
-  { balustrade: "балюстрада" },
-  { shutter: "жалюзі" },
-  { awning: "навіс" },
-  { gutter: "сток" },
-  { lawn: "газон" },
-  { driveway: "під'їзд" },
-  { shed: "хлів" },
-  { laundryRoom: "пральня" },
-  { boiler: "котел" },
-  { alarmSystem: "сигналізація" },
-  { intercom: "домофон" },
-];
+// const vehicle = [
+//   { brake: "гальма" },
+//   { tire: "шина" },
+//   { alternator: "генератор" },
+//   { suspension: "підвіска" },
+//   { exhaustSystem: "вихлопна система" },
+//   { headlight: "фара" },
+//   { taillight: "заднє світло" },
+//   { windshield: "лобове скло" },
+//   { wiper: "двірник" },
+//   { fuelTank: "паливний бак" },
+//   { sparkPlug: "свічка запалювання" },
+//   { ignitionCoil: "котушка запалювання" },
+//   { fuelPump: "паливний насос" },
+//   { trunk: "багажник" },
+// ];
+// const house = [
+//   { roof: "дах" },
+//   { ceiling: "стеля" },
+//   { chimney: "димар" },
+//   { stairs: "сходи" },
+//   { fence: "пагорб" },
+//   { gate: "ворота" },
+//   { pathway: "доріжка" },
+//   { porch: "веранда" },
+//   { attic: "горище" },
+//   { basement: "підвал" },
+//   { livingRoom: "вітальня" },
+//   { bedroom: "спальня" },
+//   { bathroom: "ванна кімната" },
+//   { diningRoom: "їдальня" },
+//   { study: "кабінет" },
+//   { fireplace: "камін" },
+//   { roofing: "покрівля" },
+//   { plumbing: "сантехніка" },
+//   { heating: "опалення" },
+//   { skylight: "дахове вікно" },
+//   { siding: "обшивка" },
+//   { balustrade: "балюстрада" },
+//   { shutter: "жалюзі" },
+//   { awning: "навіс" },
+//   { gutter: "сток" },
+//   { lawn: "газон" },
+//   { driveway: "під'їзд" },
+//   { shed: "хлів" },
+//   { laundryRoom: "пральня" },
+//   { boiler: "котел" },
+//   { alarmSystem: "сигналізація" },
+//   { intercom: "домофон" },
+// ];
 
 const number = [
   { twelve: "12" },
@@ -255,6 +258,20 @@ const englishPrime = [
   { quarterpast : "чверть 15%" },
   { only : "тільки" },
   { together : "разом" },
+  { make : "готуватись" },
+  { "tidy up" : "наводити поряд" },
+  { dishes : "посуд" },
+  { vacuum : "полососити" },
+  { sweep : "підмітати" },
+  { "take out the" : "виносити" },
+  { "make a mess" : "смітити" },
+  { "cut the grass" : "стригти траву" },
+  { places : "місце" },
+  { "outside the" : "зовні" },
+  { "inside the" : "всередині" },
+  { here : "тут" },
+  { there : "там" },
+  { abroad : "закордоном" },
 ];
 
 const irregularVerbs = [
@@ -276,7 +293,7 @@ const irregularVerbs = [
 ]
 
 const SentencePattern1 = [
-  {"Do you/we/they/your meet" : "ви зустрічаєтеся"},
+  {"Do you/we/they/your meet?" : "ви зустрічаєтеся"},
   {"Yes I meet" : "так я зустрічаюсь"},
   {"No I do not meet" : "ні я не зустрічаюсь"},
   {"You don't meet" : "ви не зустрічаєтесь"},
@@ -286,9 +303,9 @@ const SentencePattern1 = [
 ];
 
 const SentencePattern2 = [
-  {"Do you want/like to talk" : "чи ти хочеш поговорити"},
+  {"Do you want/like to talk?" : "чи ти хочеш поговорити"},
   {"Yes I want/like to talk" : "так я хочу поговорити"},
-  {"No, I don't want to talk" : "ні я нехочу поговорити"},
+  {"No, I don't want to talk?" : "ні я нехочу поговорити"},
   {"Does, he want to talk" : "ні я нехочу поговорити"},
   {"Yes, he wantS to talk" : "так він хоче поговорити"},
   {"No,he does't to talk" : "ні він не хоче поговорити"},
@@ -305,23 +322,36 @@ const SentencePattern3 = [
   {"No we aren't doctorS" : "ні вони не"},
 ];
 const SentencePattern4 = [
-  {"Were you a/an" : "чи був ти кимось?"},
+  {"Were you a/an?" : "чи був ти кимось?"},
   {"Yes, I was a/an pretty man" : "так я був чотким чуваком"},
   {"No, I was a/an " : "ні я не був кимось"},
-  {"Was she/it a/an " : "чи воно було чимось"},
+  {"Was she/it a/an?" : "чи воно було чимось"},
   {"Yes, it was a/an " : "так це було чимось"},
   {"No, he was not a/an " : "ні це не було чимось"},
-  {"Were you we/they" : "були ми/ви комось"},
+  {"Were you we/they?" : "були ми/ви комось"},
   {"Yes, we were doctorS" : "так ми були лікарями"},
   {"No, you/they was not " : "ні ви/вони не були комось"},
 ];
 const SentencePattern5 = [
-  {"When did you/I swim" : "коли ти плавав"},
-  {"When did she/they walked" : "коли вони гуляли"},
+  {"When did you/I swim?" : "коли ти плавав"},
+  {"When did she/they walked?" : "коли вони гуляли"},
   {"I swam last month" : "я плавав минулого місяця"},
   {"They waled in the spring " : "они гуляли весною"},
 ];
-const SentencePattern6 = [];
+const SentencePattern6 = [
+  {"Will you be a doctor?" : "ви будете лікарем?"},
+  {"Yes, I will be a doctor" : "так, я буду лікарем"},
+  {"No, I will not be a doc" : "ні, я не буду лік"},
+  {"Will He rich?" : "чи буде він багатий?"},
+  {"He won't rich" : "він не розбагатіє"},
+];
+const SentencePattern7 = [
+  {"Where are you?" : "де ти?"},
+  {"I am in the Canada" : "я в Канаді"},
+  {"He is at the church" : "він в церкві"},
+  {"Where are they?" : "де вони?"},
+  {"There are at mountains" : "вони в горах"},
+];
 
 export {
   allWord50,
@@ -329,7 +359,6 @@ export {
   allWordPhrases,
   allWordQuestion,
   reWord,
-  house,
   number,
   months,
   englishPrime,
@@ -339,4 +368,6 @@ export {
   SentencePattern3,
   SentencePattern4,
   SentencePattern5,
+  SentencePattern6,
+  SentencePattern7
 };
