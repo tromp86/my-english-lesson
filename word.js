@@ -352,6 +352,14 @@ const SentencePattern7 = [
   {"Where are they?" : "де вони?"},
   {"There are at mountains" : "вони в горах"},
 ];
+const SentencePattern8 = [
+  {"Where were you?" : "де ви були?"},
+  {"I was at the hospital" : "я в лікарні"},
+  {"Where was he" : "де він був"},
+  {"He was at school" : "він був у школі"},
+  {"Where were they" : "де вони були"},
+  {"They were at the library" : "вони були в бібл"},
+];
 
 export {
   allWord50,
