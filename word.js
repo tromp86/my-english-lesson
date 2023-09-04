@@ -272,6 +272,9 @@ const englishPrime = [
   { here : "тут" },
   { there : "там" },
   { abroad : "закордоном" },
+  { that : "той" },
+  { sum : "трохи, деякі" },
+  { "any?": "якісь" },
 ];
 
 const irregularVerbs = [
@@ -377,5 +380,6 @@ export {
   SentencePattern4,
   SentencePattern5,
   SentencePattern6,
-  SentencePattern7
+  SentencePattern7,
+  SentencePattern8
 };
