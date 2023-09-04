@@ -274,7 +274,18 @@ const englishPrime = [
   { abroad : "закордоном" },
   { that : "той" },
   { sum : "трохи, деякі" },
-  { "any?": "якісь" },
+  { above: "над" },
+  { under: "під" },
+  { behind: "за" },
+  { opposite: "навпроти" },
+  { "in front": "перед" },
+  { before: "до, перед" },
+  { between: "між" },
+  { "next to": "поруч з" },
+  { "in the back of the": "ззаду" },
+  { "in the front of the": "спереду" },
+  { "in the middle of the": "по середині" },
+  { "in the corner of the": "в кутку" },
 ];
 
 const irregularVerbs = [
