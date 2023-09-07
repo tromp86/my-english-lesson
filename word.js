@@ -18,6 +18,7 @@ const allWord50 = [
   { who: "хто" },
   { which: "який" },
   { can: "можу" },
+  { would: "б" },
 ];
 
 const allWord = [
@@ -75,6 +76,7 @@ const allWord = [
   { maybe: "можливо" },
   { drawer: "ящик" },
   { replace: "заміна" },
+  { employees : "співробітники" },
 ];
 
 const reWord = [
