@@ -72,6 +72,9 @@ const allWord = [
   { still: "досі" },
   { always: "завжди" },
   { must: "обов'язково" },
+  { maybe: "можливо" },
+  { drawer: "ящик" },
+  { replace: "заміна" },
 ];
 
 const reWord = [
@@ -130,6 +133,7 @@ const allWordPhrases = [
   { "I did it": "я зробив це" },
   { "It's up to you": "тобі вирішувати" },
   { "I'd like": "меніб хотілось" },
+  { "I will do": "я буду щось робити" },
 ];
 
 const allWordQuestion = [
@@ -286,6 +290,14 @@ const englishPrime = [
   { "in the front of the": "спереду" },
   { "in the middle of the": "по середині" },
   { "in the corner of the": "в кутку" },
+  { "listen to": "слухати" },
+  { "speak to/with": "говорити" },
+  { "look at": "дивитись на" },
+  { "look for": "шукати" },
+  { "smile at": "між" },
+  { "wait for": "чекати на" },
+  { "shout at": "кричати на" },
+  { stand: "стояти" },
 ];
 
 const irregularVerbs = [
@@ -374,6 +386,15 @@ const SentencePattern8 = [
   {"Where were they" : "де вони були"},
   {"They were at the library" : "вони були в бібл"},
 ];
+const SentencePattern9 = [
+  {"What is in the house?" : "що в цьому будинку?"},
+  {"The man is in the house" : "чоловік в будинку"},
+  {"What is behind the garden?" : "що позаду саду?"},
+  {"The flower is behind the gar" : "квітка позаду"},
+  {"The flowerS before are the gar" : "квіткИ позаду"},
+  {"What is under the carpet?" : "що під килимом?"},
+  {"The panS are under the carpet" : "ручки під килимом"},
+];
 
 export {
   allWord50,
@@ -392,5 +413,6 @@ export {
   SentencePattern5,
   SentencePattern6,
   SentencePattern7,
-  SentencePattern8
+  SentencePattern8,
+  SentencePattern9
 };
