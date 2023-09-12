@@ -300,6 +300,15 @@ const englishPrime = [
   { "wait for": "чекати на" },
   { "shout at": "кричати на" },
   { stand: "стояти" },
+  { "take a bath": "приймати ванну" },
+  { lunch: "обід" },
+  { dinner: "вечеря" },
+  { meal: "прийом їжі" },
+  { poridge: "каша" },
+  { "scrambled eggs": "яєшня" },
+  { "cottage cheese": "сир" },
+  { "french fries": "фрі" },
+  { yogurt: "йогАрт" },
 ];
 
 const irregularVerbs = [
@@ -318,6 +327,11 @@ const irregularVerbs = [
   {"go/went" : "йти"},
   {"come/came" : "приходити"},
   {"come/came" : "приходити"},
+  {"take/took" : "взяти, взяв"},
+  {"fall/fell" : "падати, падав"},
+  {"have/hes" : "мати, мав"},
+  {"work/worked" : "робити, робив"},
+  {"cook/cooked" : "готую, готував"},
 ]
 
 const SentencePattern1 = [
@@ -397,6 +411,24 @@ const SentencePattern9 = [
   {"What is under the carpet?" : "що під килимом?"},
   {"The panS are under the carpet" : "ручки під килимом"},
 ];
+const SentencePattern10 = [
+  {"Are you a walking" : "ти гуляєш?"},
+  {"Yes, I am walking" : "так я гуляю"},
+  {"Is she walking" : "вона гуляє?"},
+  {"No, she is not" : "Ні вона не?"},
+  {"Are they dancing" : "вони танцюють?"},
+  {"Yes they are" : "так вони"},
+  {"No, they are not" : "ні вони не"},
+];
+
+const SentencePattern11 = [
+  {"I, you, he can" : "ти можеш!"},
+  {"She can bake" : "вона може пекти"},
+  {"I can flight" : "я можу літати"},
+  {"Can they flight" : "вони можуть літати?"},
+  {"Yes they can fl" : "можна літати"},
+  {"No, I cannot" : "ні я не можу"},
+];
 
 export {
   allWord50,
@@ -416,5 +448,7 @@ export {
   SentencePattern6,
   SentencePattern7,
   SentencePattern8,
-  SentencePattern9
+  SentencePattern9,
+  SentencePattern10,
+  SentencePattern11,
 };
