@@ -309,6 +309,11 @@ const englishPrime = [
   { "cottage cheese": "сир" },
   { "french fries": "фрі" },
   { yogurt: "йогАрт" },
+  { "dairy products": "молочні прод" },
+  { cookie: "йогАрт" },
+  { tasty: "смачно" },
+  { thirsty: "йогАрт" },
+  { full: "повний" },
 ];
 
 const irregularVerbs = [
@@ -430,6 +435,17 @@ const SentencePattern11 = [
   {"No, I cannot" : "ні я не можу"},
 ];
 
+const SentencePattern12 = [
+  {"I was swimming at" : "Я плавав"},
+  {"She was bakeing at" : "вона випікала"},
+  {"At time a.m, p.m" : "коли це було"},
+  {"From 9 to 10 o'clock" : "з 9 до 10"},
+  {"All time" : "всі вихідні чи канікули"},
+  {"You were bakeing at" : "ти випікав?"},
+  {"They were bakeing at" : "вони випікали?"},
+];
+
+
 export {
   allWord50,
   allWord,
@@ -451,4 +467,5 @@ export {
   SentencePattern9,
   SentencePattern10,
   SentencePattern11,
+  SentencePattern12
 };

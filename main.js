@@ -19,6 +19,7 @@ import {
   SentencePattern9,
   SentencePattern10,
   SentencePattern11,
+  SentencePattern12,
 } from "./word.js";
 
 function createWordElements(wordArray, outputDivId) {
@@ -126,6 +127,7 @@ createWordElements(SentencePattern8, "SentencePattern8");
 createWordElements(SentencePattern9, "SentencePattern9");
 createWordElements(SentencePattern10, "SentencePattern10");
 createWordElements(SentencePattern11, "SentencePattern11");
+createWordElements(SentencePattern12, "SentencePattern12");
 
 document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {
