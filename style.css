@@ -80,7 +80,7 @@ h3{
 .word {
   font-weight: bold;
   letter-spacing: 1px;
-  width: 210px;
+  width: 220px;
 }
 a {
   text-decoration: none;
@@ -125,7 +125,11 @@ button:active {
   font-size: 0.9rem;
   filter: blur(4px);
 }
-
+.hover-word{
+  padding: 0;
+  padding-bottom: 10px;
+  margin: 0;
+}
 .box {
   display: flex;
   align-items: center;
@@ -134,7 +138,7 @@ button:active {
   text-align: center;
   transition: transform 0.5s ease-in;
   width: 180px;
-  height: 170px;
+  height: 180px;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   margin-bottom: 50px;
   border: 1px solid slategray;
@@ -167,7 +171,7 @@ button:active {
   transition: all 250ms;
   overflow: hidden;
   width: 140px;
-  transform: translate(0px, 10px);
+  /* transform: translate(0px, 10px); */
   font-size: 0.9rem;
 }
 
