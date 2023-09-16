@@ -139,16 +139,17 @@ document.addEventListener("click", (event) => {
   }
 });
 
-const scrollAnimations = (entries) => {
-  entries.forEach((entry) => {
+const scrollAnimations = async (entries) => {
+  const animateEntry = async (entry) => {
     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
       entry.target.classList.add("box--visible");
     } else {
-      setTimeout(() => {
-        entry.target.classList.remove("box--visible");
-      }, 1000);
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      entry.target.classList.remove("box--visible");
     }
-  });
+  };
+
+  await Promise.all(entries.map(animateEntry));
 };
 
 const options = {
