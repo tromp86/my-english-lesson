@@ -8,6 +8,7 @@ import {
   months,
   englishPrime,
   irregularVerbs,
+  SentencePattern0,
   SentencePattern1,
   SentencePattern2,
   SentencePattern3,
@@ -117,6 +118,7 @@ createWordElements(irregularVerbs, "irregularVerbs");
 createWordElements(number, "number");
 createWordElements(months, "months");
 
+createWordElements(SentencePattern0, "SentencePattern0");
 createWordElements(SentencePattern1, "SentencePattern1");
 createWordElements(SentencePattern2, "SentencePattern2");
 createWordElements(SentencePattern3, "SentencePattern3");

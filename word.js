@@ -290,6 +290,12 @@ const irregularVerbs = [
   {"work/worked" : "робити, робив"},
   {"cook/cooked" : "готую, готував"},
 ]
+const SentencePattern0 = [
+  {"Що ти робив" : "я плив"},
+  {"Did you/we/they/swim?" : "ти плавав"},
+  {"Yes I swam" : "так я плив"},
+  {"No, I didn't swam" : "ні я не плавав"},
+];
 
 const SentencePattern1 = [
   {"Що ти робиш?" : "чи ти його робиш вобще"},
@@ -418,6 +424,7 @@ export {
   months,
   englishPrime,
   irregularVerbs,
+  SentencePattern0,
   SentencePattern1,
   SentencePattern2,
   SentencePattern3,
