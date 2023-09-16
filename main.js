@@ -145,10 +145,11 @@ const scrollAnimations = async (entries) => {
   const animateEntry = async (entry) => {
     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
       entry.target.classList.add("box--visible");
-    } else {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      entry.target.classList.remove("box--visible");
-    }
+    } 
+    // else {
+    //   await new Promise((resolve) => setTimeout(resolve, 1500));
+    //   entry.target.classList.remove("box--visible");
+    // }
   };
 
   await Promise.all(entries.map(animateEntry));
