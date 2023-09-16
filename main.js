@@ -20,6 +20,7 @@ import {
   SentencePattern10,
   SentencePattern11,
   SentencePattern12,
+  SentencePattern13,
 } from "./word.js";
 
 function createWordElements(wordArray, outputDivId) {
@@ -128,6 +129,7 @@ createWordElements(SentencePattern9, "SentencePattern9");
 createWordElements(SentencePattern10, "SentencePattern10");
 createWordElements(SentencePattern11, "SentencePattern11");
 createWordElements(SentencePattern12, "SentencePattern12");
+createWordElements(SentencePattern13, "SentencePattern13");
 
 document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {
@@ -141,22 +143,13 @@ const scrollAnimations = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
       entry.target.classList.add("box--visible");
-    } 
-    // else {
-    //   entry.target.classList.remove("box--visible");
-    // }
+    } else {
+      setTimeout(() => {
+        entry.target.classList.remove("box--visible");
+      }, 1000);
+    }
   });
 };
-
-// const scrollAnimations = (entries) => {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
-//       entry.target.classList.add("box--visible");
-//     } else if (entry.intersectionRatio < 0.5) {
-//       entry.target.classList.remove("box--visible");
-//     }
-//   });
-// };
 
 const options = {
   threshold: 1,

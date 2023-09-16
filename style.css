@@ -136,7 +136,7 @@ button:active {
   justify-content: center;
   text-transform: uppercase;
   text-align: center;
-  transition: transform 0.5s ease-in;
+  transition: transform 0.3s ease-in;
   width: 180px;
   height: 180px;
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
@@ -150,16 +150,15 @@ button:active {
   width: 200px;
   height: 50px;
   text-transform: uppercase;
-  transition: transform 0.5s ease-in;
   transform: scale(1);
 }
 .box--grow.box--visible {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.boxWords--move-right.box--visible {
+/* .boxWords--move-right.box--visible {
   transform: translate(10px, 30px);
-}
+} */
 
 .button-container button {
   /* border: none; */
