@@ -395,6 +395,9 @@ const SentencePattern11 = [
   {"Can they flight" : "вони можуть літати?"},
   {"Yes they can fl" : "можна літати"},
   {"No, I cannot" : "ні я не можу"},
+  {"Can you a talk?" : "можеш говорити?"},
+  {"Yes, I can" : "я можу"},
+  {"No, I cannot" : "ні я не можу"},
 ];
 
 const SentencePattern12 = [
