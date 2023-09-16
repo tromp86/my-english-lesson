@@ -156,9 +156,10 @@ button:active {
   transform: scale(1.05);
 }
 
-/* .boxWords--move-right.box--visible {
+.boxWords--move-right.box--visible {
   transform: translate(10px, 30px);
-} */
+  transition: 0.5s ease-in;
+}
 
 .button-container button {
   /* border: none; */
@@ -167,7 +168,7 @@ button:active {
   border-radius: 15px;
   color: #212121;
   z-index: 1;
-  transition: all 250ms;
+  /* transition: all 250ms; */
   overflow: hidden;
   width: 140px;
   /* transform: translate(0px, 10px); */

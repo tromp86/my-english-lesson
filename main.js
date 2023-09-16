@@ -141,24 +141,28 @@ document.addEventListener("click", (event) => {
   }
 });
 
-const scrollAnimations = (entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
-      entry.target.classList.add("box--visible");
-    } 
-  });
-};
-
-
-// const scrollAnimations = async (entries) => {
-//   const animateEntry = async (entry) => {
+// const scrollAnimations = (entries) => {
+//   entries.forEach((entry) => {
 //     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
 //       entry.target.classList.add("box--visible");
 //     } 
-//   };
-
-//   await Promise.all(entries.map(animateEntry));
+//   });
 // };
+
+
+const scrollAnimations = async (entries) => {
+  const animateEntry = async (entry) => {
+    if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+      entry.target.classList.add("box--visible");
+    } 
+    // else {
+    //   await new Promise((resolve) => setTimeout(resolve, 0));
+    //   entry.target.classList.remove("box--visible");
+    // }
+  };
+
+  await Promise.all(entries.map(animateEntry));
+};
 
 const options = {
   threshold: 1,
