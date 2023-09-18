@@ -79,7 +79,7 @@ const allWord = [
   { employees : "співробітники" },
   { finally : "нарешті" },
   { usefully : "корисно" },
-  { especially : "особливо" },
+  // { especially : "особливо" },
 ];
 
 const reWord = [
