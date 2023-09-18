@@ -283,12 +283,12 @@ const irregularVerbs = [
   {"put/put" : "поставити"},
   {"go/went" : "йти"},
   {"come/came" : "приходити"},
-  {"come/came" : "приходити"},
   {"take/took" : "взяти, взяв"},
   {"fall/fell" : "падати, падав"},
   {"have/hes" : "мати, мав"},
   {"work/worked" : "робити, робив"},
   {"cook/cooked" : "готую, готував"},
+  
   {"buy/bought" : "готую, готував"},
   {"cost/cost" : "готую, готував"},
   {"drive/drove" : "готую, готував"},
