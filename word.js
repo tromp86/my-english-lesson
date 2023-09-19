@@ -430,6 +430,14 @@ const SentencePattern13 = [
   {"Why do you" : "чому ти"},
   {"I fish in the lake" : "лов рибу в озері"},
 ];
+
+const SentencePattern14 = [
+  {"Who do you jump with?" : "з ким ти щось робиш"},
+  {"I jump whis my friend" : "стрибати з моїм другом"},
+  {"Who do you see" : "кого ви бачите"},
+  {"Who does she drink with?" : "зким вона пє"},
+  {"She skis with her son" : "катаєця з сином"},
+];
 export {
   allWord50,
   allWord,
