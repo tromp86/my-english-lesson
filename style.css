@@ -24,7 +24,7 @@ section {
   margin-bottom: 20px;
 }
 .containerMain {
-  position: absolute;
+  position: relative;
   /* height: 620px;    */
   /* +60 or -60*/
 }
@@ -290,8 +290,9 @@ footer {
 
 @media (max-width: 768px) {
   .containerMain {
-    position: relative;
-    height: 1380px;   
+    /* position: relative; */
+    height: 1780px; 
+    /* height: 100%; */
     /* +60 or -60*/
   }
   .container {
