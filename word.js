@@ -79,7 +79,8 @@ const allWord = [
   { employees : "співробітники" },
   { finally : "нарешті" },
   { usefully : "корисно" },
-  // { especially : "особливо" },
+  { really : "насправді" },
+  { cheap : "дешевий" },
 ];
 
 const reWord = [
@@ -424,10 +425,10 @@ const SentencePattern12 = [
 ];
 
 const SentencePattern13 = [
-  {"What do you" : "що ти"},
-  {"Where do you" : "де ти"},
-  {"When do you" : "коли ти"},
-  {"Why do you" : "чому ти"},
+  {"What do you" : "що ти робиш"},
+  {"Where do you" : "де ти робиш"},
+  {"When do you" : "коли ти робиш"},
+  {"Why do you" : "чому ти робиш"},
   {"I fish in the lake" : "лов рибу в озері"},
 ];
 
@@ -437,7 +438,23 @@ const SentencePattern14 = [
   {"Who do you see" : "кого ви бачите"},
   {"Who does she drink with?" : "зким вона пє"},
   {"She skis with her son" : "катаєця з сином"},
+  {"Who do you climb with?" : "з ким ти лізеш?"},
+  {"Who does she walk with?" : "з ким вона гуляє?"},
 ];
+
+const SentencePattern15 = [
+  {"What did you do?" : "що ти зробив?"},
+  {"I did something" : "я щось зробив"},
+  {"What did you think?" : "що ви думали"},
+  {"I did think of a bicycle" : "я думав про"},
+  {"Where did you drive?" : "куди ви їхали?"},
+  {"I drove to the village" : "заїхав до села"},
+  {"When did she drink?" : "коли вона пила?"},
+  {"She did drink last week" : "вона пила минулого"},
+  {"Who did she know?" : "кого вона знала?"},
+  {"She did know all the people" : "Вона знала всіх"},
+];
+
 export {
   allWord50,
   allWord,
@@ -462,6 +479,8 @@ export {
   SentencePattern11,
   SentencePattern12,
   SentencePattern13,
+  SentencePattern14,
+  SentencePattern15,
 };
 
 
