@@ -19,6 +19,12 @@ const allWord50 = [
   { which: "який" },
   { can: "можу" },
   { would: "б" },
+  { how: "як" },
+  { why: "чому" },
+  { "after that": "після того як" },
+  { then: "потім" },
+  { "at first": "спочатку" },
+  { finally : "нарешті" },
 ];
 
 const allWord = [
@@ -77,10 +83,10 @@ const allWord = [
   { drawer: "ящик" },
   { replace: "заміна" },
   { employees : "співробітники" },
-  { finally : "нарешті" },
   { usefully : "корисно" },
   { really : "насправді" },
   { cheap : "дешевий" },
+  { tired : "втомлений" },
 ];
 
 const reWord = [
