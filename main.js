@@ -6,6 +6,7 @@ import {
   reWord,
   number,
   months,
+  weather,
   englishPrime,
   irregularVerbs,
   SentencePattern0,
@@ -119,6 +120,7 @@ createWordElements(englishPrime, "output-prime");
 createWordElements(irregularVerbs, "irregularVerbs");
 createWordElements(number, "number");
 createWordElements(months, "months");
+createWordElements(weather, "weather");
 
 createWordElements(SentencePattern0, "SentencePattern0");
 createWordElements(SentencePattern1, "SentencePattern1");

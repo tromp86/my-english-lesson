@@ -193,6 +193,21 @@ const months = [
   { December: "грудень" },
 ];
 
+const weather = [
+  { rainy: "дощовито" },
+  { snowy: "сніжно" },
+  { muddy: "багнисто" },
+  { foggy: "туманно" },
+  { moist : "волого" },
+  { cloudy: "хмарно" },
+  { slippery: "слизько" },
+  { chilly: "прохолодно" },
+  { cool: "холодно" },
+  { freezing: "морозно" },
+  { dry: "сухий" },
+  { windy: "вітряний" },
+];
+
 const englishPrime = [
   { your : "твій" },
   { sell : "продавати" },
@@ -469,6 +484,7 @@ export {
   reWord,
   number,
   months,
+  weather,
   englishPrime,
   irregularVerbs,
   SentencePattern0,
