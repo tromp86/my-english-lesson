@@ -8,6 +8,7 @@ import {
   number,
   months,
   weather,
+  gettingAround,
   englishPrime,
   irregularVerbs,
   SentencePattern0,
@@ -123,6 +124,7 @@ createWordElements(number, "number");
 createWordElements(months, "months");
 createWordElements(weather, "weather");
 createWordElements(eating, "eating");
+createWordElements(gettingAround, "gettingAround");
 
 createWordElements(SentencePattern0, "SentencePattern0");
 createWordElements(SentencePattern1, "SentencePattern1");
