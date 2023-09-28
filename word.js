@@ -121,6 +121,12 @@ const reWord = [
   { "to owe": "заборгувати" },
   { "to blow out": "підірвати, гасити" },
   { interweave: "переплітати" },
+  { "happen (to)": "трапилось з" },
+  { "decide (to)": "вирішив з" },
+  { even: "навіть" },
+  { probably: "ймовірно" },
+  { understand: "зрозуміло" },
+  { become: "ставати" },
 ];
 
 const allWordPhrases = [
@@ -291,7 +297,7 @@ const englishPrime = [
 ];
 
 const irregularVerbs = [
-  {"come/came" : "кейм"},
+  {"come/came" : "кейм приход"},
   {"break/broke" : "ламати"},
   {"speak/spoke" : "говорити"},
   {"write/wrote" : "писати"},
@@ -304,7 +310,6 @@ const irregularVerbs = [
   {"get/got" : "отримати"},
   {"put/put" : "поставити"},
   {"go/went" : "йти"},
-  {"come/came" : "приходити"},
   {"take/took" : "взяти, взяв"},
   {"fall/fell" : "падати, падав"},
   {"have/hes" : "мати, мав"},
