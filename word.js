@@ -215,6 +215,28 @@ const weather = [
   { windy: "вітряний" },
 ];
 
+const eating = [
+  { lunch: "обід" },
+  { dinner: "вечеря" },
+  { meal: "прийом їжі" },
+  { poridge: "каша" },
+  { "scrambled eggs": "яєшня" },
+  { "cottage cheese": "сир" },
+  { "french fries": "фрі" },
+  { yogurt: "йогАрт" },
+  { "dairy products": "молочні прод" },
+  { cookie: "тортик" },
+  { tasty: "смачно" },
+  { thirsty: "спраглий" },
+  { full: "повний" },
+  { shrimps: "креведки" },
+  { "soft drinks": "безалк" },
+  { mustard: "гірчиця" },
+  { sour: "кислий" },
+  { sweet: "солодкий" },
+  { bitter: "гіркий" },
+];
+
 const englishPrime = [
   { your : "твій" },
   { sell : "продавати" },
@@ -281,19 +303,6 @@ const englishPrime = [
   { "shout at": "кричати на" },
   { stand: "стояти" },
   { "take a bath": "приймати ванну" },
-  { lunch: "обід" },
-  { dinner: "вечеря" },
-  { meal: "прийом їжі" },
-  { poridge: "каша" },
-  { "scrambled eggs": "яєшня" },
-  { "cottage cheese": "сир" },
-  { "french fries": "фрі" },
-  { yogurt: "йогАрт" },
-  { "dairy products": "молочні прод" },
-  { cookie: "йогАрт" },
-  { tasty: "смачно" },
-  { thirsty: "йогАрт" },
-  { full: "повний" },
 ];
 
 const irregularVerbs = [
@@ -486,6 +495,7 @@ export {
   allWordPhrases,
   allWordQuestion,
   reWord,
+  eating,
   number,
   months,
   weather,

@@ -4,6 +4,7 @@ import {
   allWordPhrases,
   allWordQuestion,
   reWord,
+  eating,
   number,
   months,
   weather,
@@ -121,6 +122,7 @@ createWordElements(irregularVerbs, "irregularVerbs");
 createWordElements(number, "number");
 createWordElements(months, "months");
 createWordElements(weather, "weather");
+createWordElements(eating, "eating");
 
 createWordElements(SentencePattern0, "SentencePattern0");
 createWordElements(SentencePattern1, "SentencePattern1");
