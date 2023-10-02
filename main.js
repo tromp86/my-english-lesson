@@ -151,6 +151,14 @@ document.addEventListener("click", (event) => {
   }
 });
 
+document.getElementById("delayedLink").addEventListener("click", function(event) {
+  event.preventDefault();
+  
+  setTimeout(function() {
+    window.location.href = "#main-footer";
+  }, 1000); 
+});
+
 // const scrollAnimations = (entries) => {
 //   entries.forEach((entry) => {
 //     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
