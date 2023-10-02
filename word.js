@@ -242,7 +242,9 @@ const allWordQuestion = [
   { "Now, who wants to save the world?": "А тепер, хто хоче врятувати світ?" },
   { "Which sweater goes best with these pants?": "Який светр найкраще підходить до цих штанів?" },
   { "Who is coming to the play?": "Хто йде на виставу?" },
-  {"Where is a lot bears" : "там багато медведів"},
+  {"There are a lot bears" : "там багато медведів"},
+  {"There's more to food in the village" : "У селі більше їжі"},
+  {"There are some clean corners in the a" : "У квартирі є кілька чистих куточків"},
 ];
 
 const number = [
