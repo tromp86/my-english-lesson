@@ -267,12 +267,12 @@ footer {
   background-color: #333333 ;
   color: #f2f2f2;
   padding: 10px;
-  font-size: 29px;
+  font-size: 28px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   margin: auto;
-  width: 220px;
+  width: 180px;
 }
 .clickCountFixed{
   position: fixed;
@@ -281,10 +281,10 @@ footer {
   font-size: 17px;
 }
 #smile{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 #text{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {

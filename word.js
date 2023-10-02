@@ -242,7 +242,7 @@ const allWordQuestion = [
   { "Now, who wants to save the world?": "А тепер, хто хоче врятувати світ?" },
   { "Which sweater goes best with these pants?": "Який светр найкраще підходить до цих штанів?" },
   { "Who is coming to the play?": "Хто йде на виставу?" },
-
+  {"Where is a lot bears" : "там багато медведів"},
 ];
 
 const number = [
@@ -595,6 +595,7 @@ const SentencePattern15 = [
   {"Who did she know?" : "кого вона знала?"},
   {"She did know all the people" : "Вона знала всіх"},
 ];
+
 
 export {
   allWord50,
