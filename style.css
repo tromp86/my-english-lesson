@@ -267,7 +267,7 @@ footer {
   background-color: #333333 ;
   color: #f2f2f2;
   padding: 10px;
-  font-size: 28px;
+  font-size: 22px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -290,11 +290,20 @@ footer {
 @media (max-width: 768px) {
   .containerMain {
     /* position: relative; */
-    height: 2000px; 
+    height: 2050px; 
     /* height: 100%; */
     /* +60 or -60*/
   }
   .container {
     height: 130px;
+  }
+  footer {
+    padding: 10px;
+  }
+  .clickCountFixed{
+    margin-top: 15px;
+  }
+  #smile{
+    margin-top: 15px;
   }
 }
