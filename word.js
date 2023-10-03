@@ -599,9 +599,9 @@ const SentencePattern15 = [
 ];
 
 const SentencePattern16 = [
-  {"Is there a bathroom?" : "чи там є ванн кімната"},
-  {"Yes, there is a bathroom" : "так, є ванна кімната"},
-  {"No, there is no bathroom" : "ні, немає ванної кімнати"},
+  {"Is there a bathroom?" : "чи там є ванн"},
+  {"Yes, there is a bathroom" : "так, є ванна"},
+  {"No, there is no bathroom" : "ні, немає ванної"},
   {"Are there a dogs?" : "чи там є сабокени?"},
   {"Yes, there are dogs" : "так, є сабокени"},
 ];
