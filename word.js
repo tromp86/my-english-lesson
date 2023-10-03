@@ -598,6 +598,14 @@ const SentencePattern15 = [
   {"She did know all the people" : "Вона знала всіх"},
 ];
 
+const SentencePattern16 = [
+  {"Is there a bathroom?" : "чи там є ванн кімната"},
+  {"Yes, there is a bathroom" : "так, є ванна кімната"},
+  {"No, there is no bathroom" : "ні, немає ванної кімнати"},
+  {"Are there a dogs?" : "чи там є сабокени?"},
+  {"Yes, there are dogs" : "так, є сабокени"},
+];
+
 
 export {
   allWord50,
@@ -628,6 +636,7 @@ export {
   SentencePattern13,
   SentencePattern14,
   SentencePattern15,
+  SentencePattern16,
 };
 
 
