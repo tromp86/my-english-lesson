@@ -171,6 +171,15 @@ const allWordPhrases = [
   { "It's up to you": "тобі вирішувати" },
   { "I'd like": "меніб хотілось" },
   { "I will do": "я буду щось робити" },
+  { "Hi there": "привіт" },
+  { "no way": "ні в якому разі" },
+  { "how come": "як так" },
+  { "come again": "повтори ще раз" },
+  { "I don't get it": "не розумію" },
+  { "don't worry about this": "нічого страшного" },
+  { "nevermind": "неважливо" },
+  { "I'm not really shure": "я не впевнений" },
+
 ];
 
 const allWordQuestion = [
