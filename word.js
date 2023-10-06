@@ -456,14 +456,28 @@ const irregularVerbs = [
   {"wear/wore/worn" : "носити одяг"},
 ]
 const SentencePattern0 = [
-  {"Що ти робив" : "я плив"},
+  // {"Що ти робив" : "я плив"},
   {"Did you/we/they/swim?" : "ти плавав"},
   {"Yes I swam" : "так я плив"},
   {"No, I didn't swam" : "ні я не плавав"},
+  {"Friends were on vacation" : "були на канікулах?"},
+  {"Friends weren't on vac" : "не були?"},
+  {"We had a nice time" : "ми гарно провели час"},
+  {"We didn't have a nice time" : "ми  не гарно провели"},
+  {"You went to the beach" : "ти пішов на пляж"},
+  {"Did you go to the beach?" : "ти пішов на пляж?"},
+  {"The weather was nice" : "погода була гарна"},
+  {"Was the weather nice?" : "погода була гарна?"},
+  {"They had fun" : "вони розважалися"},
+  {"Did they have fun?" : "вони розважалися?"},
+  {"She did her homework" : "вона зробила свою домашню роботу"},
+  {"Did she do her homework?" : "вона зробила свою домашню роботу?"},
+  {"You were tired last night" : "вчора ввечері ти втомився"},
+  {"Were you tired last night?" : "ви втомилися вчора ввечері?"},
 ];
 
 const SentencePattern1 = [
-  {"Що ти робиш?" : "чи ти його робиш вобще"},
+  // {"Що ти робиш?" : "чи ти його робиш вобще"},
   {"Do you/we/they/your meet?" : "ви зустрічаєтеся"},
   {"Yes I meet" : "так я зустрічаюсь"},
   {"No I do not meet" : "ні я не зустрічаюсь"},
@@ -474,7 +488,7 @@ const SentencePattern1 = [
 ];
 
 const SentencePattern2 = [
-  {"Що ти хочеш?" : "в даний час"},
+  // {"Що ти хочеш?" : "в даний час"},
   {"Do you want/like to talk?" : "чи ти хочеш поговорити"},
   {"Yes I want/like to talk" : "так я хочу поговорити"},
   {"No, I don't want to talk?" : "ні я нехочу поговорити"},
@@ -483,7 +497,7 @@ const SentencePattern2 = [
   {"No,he does't to talk" : "ні він не хоче поговорити"},
 ];
 const SentencePattern3 = [
-  {"Чи ти хтось?" : "в даний час"},
+  // {"Чи ти хтось?" : "в даний час"},
   {"Are you a/an doctor" : "Чи він лікар?"},
   {"Yes, I am a/an" : "так він лікар"},
   {"No, I am not a/an" : "ні він не лікар"},
@@ -507,7 +521,7 @@ const SentencePattern4 = [
   {"No, you/they was not " : "ні ви/вони не були комось"},
 ];
 const SentencePattern5 = [
-  {"When did you/I swim?" : "коли ти плавав"},
+  // {"When did you/I swim?" : "коли ти плавав"},
   {"When did she/they walked?" : "коли вони гуляли"},
   {"I swam last month" : "я плавав минулого місяця"},
   {"They waled in the spring " : "они гуляли весною"},
