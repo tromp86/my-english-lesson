@@ -179,6 +179,7 @@ const allWordPhrases = [
   { "don't worry about this": "нічого страшного" },
   { "nevermind": "неважливо" },
   { "I'm not really shure": "я не впевнений" },
+  {"I am going to swim" : "я збираюсь плавати"},
 
 ];
 
