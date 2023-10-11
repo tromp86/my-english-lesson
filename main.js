@@ -149,6 +149,8 @@ document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {
     const divDefinition = event.target.parentNode.previousElementSibling;
     divDefinition.style.filter = "blur(0px)";
+    const audio = document.getElementById("audioClickButton");
+    audio.play();
     updateClickCount();
   }
 });
