@@ -155,9 +155,11 @@ document.addEventListener("click", (event) => {
 
 document.getElementById("delayedLink").addEventListener("click", function(event) {
   event.preventDefault();
-  
+  const audio = document.getElementById("audioClickCount");
+    
   setTimeout(function() {
     window.location.href = "#main-footer";
+    audio.play();
   }, 1000); 
 });
 
