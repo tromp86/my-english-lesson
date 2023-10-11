@@ -106,6 +106,15 @@ const allWord = [
   { such : "такий" },
   { rerely : "рідко" },
   { performance : "продуктивність" },
+  { "to peel" : "чистити" },
+  { prefer : "віддавати перевагу" },
+  { thick : "товстий" },
+  { flabby : "вялий" },
+  { tolerate : "терпіти" },
+  { lazy : "ледачий" },
+  { reliable : "надійний" },
+  { dyed : "пофарбований" },
+  { upstairs : "нагорі" },
 ];
 
 const reWord = [
@@ -179,8 +188,9 @@ const allWordPhrases = [
   { "don't worry about this": "нічого страшного" },
   { "nevermind": "неважливо" },
   { "I'm not really shure": "я не впевнений" },
-  {"I am going to swim" : "я збираюсь плавати"},
-
+  { "I am going to swim" : "я збираюсь плавати"},
+  { "Suit yourself": "як хочеш" },
+  { "Mateo's cousin": "двоюрідний брат Матео" },
 ];
 
 const allWordQuestion = [
@@ -254,6 +264,8 @@ const allWordQuestion = [
   {"There are a lot bears" : "там багато медведів"},
   {"There's more to food in the village" : "У селі більше їжі"},
   {"There are some clean corners in the a" : "У квартирі є кілька чистих куточків"},
+  {"how much milk?" : "незліченний іменник"},
+  {"how many pancakes?" : "зліченний іменник"},
 ];
 
 const number = [
