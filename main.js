@@ -165,13 +165,16 @@ document.getElementById("delayedLink").addEventListener("click", function(event)
   }, 1000); 
 });
 
-const boldTags = document.getElementsByTagName("b");
+function playAudio() {
+  const audio = document.getElementById("audioClickMain");
+  audio.currentTime = 0; // Скидаємо час аудіо до початку
+  audio.play();
+}
+
+const boldTags = document.getElementsByTagName("a");
 
 for (let i = 0; i < boldTags.length; i++) {
-  boldTags[i].addEventListener("click", function() {
-    const audio = document.getElementById("audioClickMain");
-    audio.play();
-  });
+  boldTags[i].addEventListener("click", playAudio);
 }
 
 document.getElementById("fix").addEventListener("click", function() {
