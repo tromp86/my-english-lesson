@@ -175,6 +175,7 @@ for (let i = 0; i < boldTags.length; i++) {
 }
 
 document.getElementById("fix").addEventListener("click", function() {
+  window.location.href = "#main";
   const audio = document.getElementById("audioFix");
   audio.play();
 });
