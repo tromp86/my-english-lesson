@@ -165,6 +165,14 @@ document.getElementById("delayedLink").addEventListener("click", function(event)
   }, 1000); 
 });
 
+const boldTags = document.getElementsByTagName("b");
+
+for (let i = 0; i < boldTags.length; i++) {
+  boldTags[i].addEventListener("click", function() {
+    const audio = document.getElementById("audioClickMain");
+    audio.play();
+  });
+}
 // const scrollAnimations = (entries) => {
 //   entries.forEach((entry) => {
 //     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
