@@ -167,7 +167,7 @@ document.getElementById("delayedLink").addEventListener("click", function(event)
 
 function playAudio() {
   const audio = document.getElementById("audioClickMain");
-  audio.currentTime = 0; // Скидаємо час аудіо до початку
+  audio.currentTime = 0;
   audio.play();
 }
 

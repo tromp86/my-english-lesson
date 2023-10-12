@@ -72,7 +72,7 @@ h1:hover  {
   position: absolute;
   z-index: 1;
   font-size: 0.8rem;
-  bottom: 80%;
+  bottom: 85%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
