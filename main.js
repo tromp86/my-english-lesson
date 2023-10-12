@@ -173,6 +173,11 @@ for (let i = 0; i < boldTags.length; i++) {
     audio.play();
   });
 }
+
+document.getElementById("fix").addEventListener("click", function() {
+  const audio = document.getElementById("audioFix");
+  audio.play();
+});
 // const scrollAnimations = (entries) => {
 //   entries.forEach((entry) => {
 //     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
