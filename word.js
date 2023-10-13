@@ -115,6 +115,12 @@ const allWord = [
   { reliable : "надійний" },
   { dyed : "пофарбований" },
   { upstairs : "нагорі" },
+  { broken : "зламаний" },
+  { belt : "ремінь" },
+  { "over here" : "ось там" },
+  { anything : "нічого" },
+  { someone : "хтось" },
+  { suburbs : "передмістя" },
 ];
 
 const reWord = [
@@ -191,6 +197,13 @@ const allWordPhrases = [
   { "I am going to swim" : "я збираюсь плавати"},
   { "Suit yourself": "як хочеш" },
   { "Mateo's cousin": "двоюрідний брат Матео" },
+  { "I'm not following": "я не слідкую" },
+  { "I'll give it a shot": "я спробую" },
+  { "Take your time": "не спіши" },
+  { "I gotta go": "мені треба йти" },
+  { "I have no clue": "я поняття не маю" },
+  { "It's not a big deal": "нічого страшного" },
+  { "Here we go": "ми вже йдемо" },
 ];
 
 const allWordQuestion = [
