@@ -196,7 +196,7 @@ button:active {
   width: 200px;
   height: 50px;
   text-transform: uppercase;
-  transform: scale(1);
+  transform: scale(0.95);
 }
 .box--grow.box--visible {
   transform: scale(1.05);
@@ -238,6 +238,15 @@ button:active {
 .button-container button:hover::before {
   width: 100%;
 }
+
+.inactive-button {
+  background-color: white !important;
+  color: silver !important;
+  visibility: hidden;
+  /* cursor: not-allowed; */
+}
+
+
 /* footer */
 footer {
   background-color: #f2f2f2;

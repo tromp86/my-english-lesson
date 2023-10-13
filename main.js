@@ -30,51 +30,6 @@ import {
   SentencePattern16,
 } from "./word.js";
 
-function createWordElements(wordArray, outputDivId) {
-  const outputDiv = document.getElementById(outputDivId);
-
-  if (outputDiv) {
-    wordArray.forEach((obj) => {
-      const divOuter = document.createElement("div");
-      divOuter.classList.add("box", "box--grow");
-
-      const divWord = document.createElement("div");
-      divWord.classList.add("word");
-
-      const key = Object.keys(obj)[0];
-      const value = obj[key];
-
-      const h2 = document.createElement("h2");
-      h2.textContent = key;
-
-      const divDefinition = document.createElement("div");
-      divDefinition.classList.add("definition");
-
-      const p = document.createElement("p");
-      p.classList.add("hover-word");
-      p.textContent = value;
-
-      const divButton = document.createElement("div");
-      divButton.classList.add("button-container");
-
-      const button = document.createElement("button");
-      button.setAttribute("id", "knowButton");
-      button.textContent = "I do not remember";
-
-      divDefinition.appendChild(p);
-      divWord.appendChild(h2);
-      divWord.appendChild(divDefinition);
-      divWord.appendChild(divButton);
-      divButton.appendChild(button);
-      divOuter.appendChild(divWord);
-
-      if (outputDiv) {
-        outputDiv.appendChild(divOuter);
-      }
-    });
-  }
-}
-
 const clickCountElement = document.getElementById("clickCount");
 let clickCount = 0;
 const smile = document.getElementById("smile");
@@ -111,6 +66,61 @@ function updateClickCount() {
       break;
     default:
       break;
+  }
+}
+
+function createWordElements(wordArray, outputDivId) {
+  const outputDiv = document.getElementById(outputDivId);
+
+  if (outputDiv) {
+    wordArray.forEach((obj) => {
+      const divOuter = document.createElement("div");
+      divOuter.classList.add("box", "box--grow");
+
+      const divWord = document.createElement("div");
+      divWord.classList.add("word");
+
+      const key = Object.keys(obj)[0];
+      const value = obj[key];
+
+      const h2 = document.createElement("h2");
+      h2.textContent = key;
+
+      const divDefinition = document.createElement("div");
+      divDefinition.classList.add("definition");
+
+      const p = document.createElement("p");
+      p.classList.add("hover-word");
+      p.textContent = value;
+
+      const divButton = document.createElement("div");
+      divButton.classList.add("button-container");
+
+      const button = document.createElement("button");
+      button.setAttribute("id", "knowButton");
+      button.textContent = "I do not remember";
+      let buttonClicked = false;
+
+      button.addEventListener("click", () => {
+        if (!buttonClicked) {
+          updateClickCount();
+          buttonClicked = true;
+          button.disabled = true; 
+          button.classList.add("inactive-button");
+        }
+      });
+
+      divDefinition.appendChild(p);
+      divWord.appendChild(h2);
+      divWord.appendChild(divDefinition);
+      divWord.appendChild(divButton);
+      divButton.appendChild(button);
+      divOuter.appendChild(divWord);
+
+      if (outputDiv) {
+        outputDiv.appendChild(divOuter);
+      }
+    });
   }
 }
 
@@ -151,7 +161,6 @@ document.addEventListener("click", (event) => {
     divDefinition.style.filter = "blur(0px)";
     const audio = document.getElementById("audioClickButton");
     audio.play();
-    updateClickCount();
   }
 });
 
