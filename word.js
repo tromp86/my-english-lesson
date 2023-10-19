@@ -33,6 +33,9 @@ const allWord50 = [
   { then: "потім" },
   { "at first": "спочатку" },
   { finally : "нарешті" },
+  { yet: "щось станеться незабаром" },
+  { already: "вже, відбулось неочікуване" },
+  { just: "щойно сталося" },
 ];
 
 const allWord = [
@@ -121,6 +124,8 @@ const allWord = [
   { anything : "нічого" },
   { someone : "хтось" },
   { suburbs : "передмістя" },
+  { since : "жити з якогось року" },
+  { cereal : "пластівці" },
 ];
 
 const reWord = [
@@ -160,6 +165,7 @@ const reWord = [
   { probably: "ймовірно" },
   { understand: "зрозуміло" },
   { become: "ставати" },
+
 ];
 
 const allWordPhrases = [
@@ -204,6 +210,10 @@ const allWordPhrases = [
   { "I have no clue": "я поняття не маю" },
   { "It's not a big deal": "нічого страшного" },
   { "Here we go": "ми вже йдемо" },
+  { "to spend tіme with": "проводити час з" },
+  { "to enjoy yourself": " приємно проводити час" },
+  { "Nice to meet you": " приємно познайомитись" },
+  { "Thanks a lot": "дуже дякую" },
 ];
 
 const allWordQuestion = [
@@ -328,6 +338,7 @@ const weather = [
   { freezing: "морозно" },
   { dry: "сухий" },
   { windy: "вітряний" },
+  { thunderstorm: "гроза" },
 ];
 
 const eating = [
@@ -434,7 +445,7 @@ const irregularVerbs = [
   {"do/did/done" : "робити"},
   {"go/went/gone" : "йти"},
   {"become/became" : "ставати"},
-  {"bring/brought" : "приносити"},
+  {"bring/brought" : "[брот]приносити"},
   {"begin/began " : "починати"},
   {"can/could " : "могти, вміти"},
   {"been able to" : "вдалося"},
