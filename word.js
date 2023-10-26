@@ -231,16 +231,17 @@ const allWordPhrases = [
   { "to enjoy yourself": " приємно проводити час" },
   { "Nice to meet you": " приємно познайомитись" },
   { "Thanks a lot": "дуже дякую" },
+  { "to eat healthily": "здорове харчування" },
 ];
 
 const allWordQuestion = [
-  { "is he comming?": "він йде?" },
-  { "are you getting anything?": "ти береш щось?" },
-  { "you bring something?": "ти приносиш щось?" },
-  { "is it getting better?": "це стає кращим?" },
-  { "what are you wearing?": "у що ти одягнений?" },
-  { "could I have?": "чи можна мені?" },
-  { "what do you do for a living?": "Чим ви займаєтесь?" },
+  { "Is he comming?": "він йде?" },
+  { "Are you getting anything?": "ти береш щось?" },
+  { "You bring something?": "ти приносиш щось?" },
+  { "Is it getting better?": "це стає кращим?" },
+  { "What are you wearing?": "у що ти одягнений?" },
+  { "Could I have?": "чи можна мені?" },
+  { "What do you do for a living?": "Чим ви займаєтесь?" },
   { "Are you sure…?": "Ти впевнений/впевнена…?" },
   { "A lovely day, isn’t it?": "Прекрасний день, чи не так?" },
   { "Are you used to?": "Ти звик(ла)?" },
@@ -304,8 +305,11 @@ const allWordQuestion = [
   {"There are a lot bears" : "там багато медведів"},
   {"There's more to food in the village" : "У селі більше їжі"},
   {"There are some clean corners in the a" : "У квартирі є кілька чистих куточків"},
-  {"how much milk?" : "незліченний іменник"},
-  {"how many pancakes?" : "зліченний іменник"},
+  {"How much milk?" : "незліченний іменник"},
+  {"How many pancakes?" : "зліченний іменник"},
+  {"May I?" : "чи можу я?"},
+  {"Could you?" : "можете ви?"},
+  {"Are you taking any medicine?" : " ви приймаєте якісь ліки"},
 ];
 
 const number = [
