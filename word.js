@@ -126,6 +126,23 @@ const allWord = [
   { suburbs : "передмістя" },
   { since : "жити з якогось року" },
   { cereal : "пластівці" },
+  { describe : "описати" },
+  { roundabout : "кільцева дорога" },
+  { neighbors : "сусіди" },
+  { brave : "хоробрий" },
+  { reliable : "надійний" },
+  { slowly : "повільно" },
+  { immediately : "відразу" },
+  { carefully : "обережно" },
+  { terrible : "жахливо" },
+  { entrance : "вхід" },
+  { "to eat healthily" : "здорове харчування" },
+  { appointment : "зустріч" },
+  { headache : "[хедек] головний біль" },
+  { "sore throat" : "[соре фрут] біль в горлі" },
+  { cough : "[коф] кашель" },
+  { should : "слід" },
+  { warm : "теплий" },
 ];
 
 const reWord = [
