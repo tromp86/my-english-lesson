@@ -143,6 +143,14 @@ const allWord = [
   { cough : "[коф] кашель" },
   { should : "слід" },
   { warm : "теплий" },
+
+  { invitation : "теплий" },
+  { expect : "очікувати" },
+  { "shouldn't " : "не повинен" },
+  { reminds : "нагадує" },
+  { goal : "мета" },
+  { reason : "причина" },
+  { worst : "найгірший" },
 ];
 
 const reWord = [
