@@ -1,5 +1,5 @@
 import {
-  allWord50,
+  // allWord50,
   allWord,
   allWordPhrases,
   allWordQuestion,
@@ -11,23 +11,23 @@ import {
   gettingAround,
   englishPrime,
   irregularVerbs,
-  SentencePattern0,
-  SentencePattern1,
-  SentencePattern2,
-  SentencePattern3,
-  SentencePattern4,
-  SentencePattern5,
-  SentencePattern6,
-  SentencePattern7,
-  SentencePattern8,
-  SentencePattern9,
-  SentencePattern10,
-  SentencePattern11,
-  SentencePattern12,
-  SentencePattern13,
-  SentencePattern14,
-  SentencePattern15,
-  SentencePattern16,
+  // SentencePattern0,
+  // SentencePattern1,
+  // SentencePattern2,
+  // SentencePattern3,
+  // SentencePattern4,
+  // SentencePattern5,
+  // SentencePattern6,
+  // SentencePattern7,
+  // SentencePattern8,
+  // SentencePattern9,
+  // SentencePattern10,
+  // SentencePattern11,
+  // SentencePattern12,
+  // SentencePattern13,
+  // SentencePattern14,
+  // SentencePattern15,
+  // SentencePattern16,
 } from "./word.js";
 
 const clickCountElement = document.getElementById("clickCount");
@@ -124,36 +124,36 @@ function createWordElements(wordArray, outputDivId) {
   }
 }
 
-createWordElements(allWord50, "output-allWord50");
+// createWordElements(allWord50, "output-allWord50");
 createWordElements(allWord, "output-allWord");
 createWordElements(allWordPhrases, "output-allWordPhrases");
 createWordElements(allWordQuestion, "output-allWordQuestion");
 createWordElements(reWord, "output-reWord");
 createWordElements(englishPrime, "output-prime");
 createWordElements(irregularVerbs, "irregularVerbs");
-createWordElements(number, "number");
-createWordElements(months, "months");
-createWordElements(weather, "weather");
-createWordElements(eating, "eating");
+// createWordElements(number, "number");
+// createWordElements(months, "months");
+// createWordElements(weather, "weather");
+// createWordElements(eating, "eating");
 createWordElements(gettingAround, "gettingAround");
 
-createWordElements(SentencePattern0, "SentencePattern0");
-createWordElements(SentencePattern1, "SentencePattern1");
-createWordElements(SentencePattern2, "SentencePattern2");
-createWordElements(SentencePattern3, "SentencePattern3");
-createWordElements(SentencePattern4, "SentencePattern4");
-createWordElements(SentencePattern5, "SentencePattern5");
-createWordElements(SentencePattern6, "SentencePattern6");
-createWordElements(SentencePattern7, "SentencePattern7");
-createWordElements(SentencePattern8, "SentencePattern8");
-createWordElements(SentencePattern9, "SentencePattern9");
-createWordElements(SentencePattern10, "SentencePattern10");
-createWordElements(SentencePattern11, "SentencePattern11");
-createWordElements(SentencePattern12, "SentencePattern12");
-createWordElements(SentencePattern13, "SentencePattern13");
-createWordElements(SentencePattern14, "SentencePattern14");
-createWordElements(SentencePattern15, "SentencePattern15");
-createWordElements(SentencePattern16, "SentencePattern16");
+// createWordElements(SentencePattern0, "SentencePattern0");
+// createWordElements(SentencePattern1, "SentencePattern1");
+// createWordElements(SentencePattern2, "SentencePattern2");
+// createWordElements(SentencePattern3, "SentencePattern3");
+// createWordElements(SentencePattern4, "SentencePattern4");
+// createWordElements(SentencePattern5, "SentencePattern5");
+// createWordElements(SentencePattern6, "SentencePattern6");
+// createWordElements(SentencePattern7, "SentencePattern7");
+// createWordElements(SentencePattern8, "SentencePattern8");
+// createWordElements(SentencePattern9, "SentencePattern9");
+// createWordElements(SentencePattern10, "SentencePattern10");
+// createWordElements(SentencePattern11, "SentencePattern11");
+// createWordElements(SentencePattern12, "SentencePattern12");
+// createWordElements(SentencePattern13, "SentencePattern13");
+// createWordElements(SentencePattern14, "SentencePattern14");
+// createWordElements(SentencePattern15, "SentencePattern15");
+// createWordElements(SentencePattern16, "SentencePattern16");
 
 document.addEventListener("click", (event) => {
   if (event.target.id === "knowButton") {
