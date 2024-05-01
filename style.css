@@ -170,7 +170,7 @@ button:active {
   margin-bottom: 4px;
   color: rgb(36, 43, 43);
   font-size: 0.7rem;
-  filter: blur(3px);
+  filter: blur(2px);
 }
 .hover-word{
   padding: 0;

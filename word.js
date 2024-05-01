@@ -194,8 +194,18 @@ const reWord = [
   { probably: "ймовірно" },
   { understand: "зрозуміло" },
   { become: "ставати" },
-
+  { "issues with" : "ставати" },
 ];
+
+
+
+
+
+
+
+
+
+
 
 const allWordPhrases = [
   { "let's go": "ходімо" },
