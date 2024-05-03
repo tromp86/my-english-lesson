@@ -156,6 +156,8 @@ const allWord = [
   { worst : "найгірший" },
   { bother : "турбувати" },
   { definitely : "безумовно" },
+  { appreciate : "цінувати" },
+  { due : "через" },
   { "issues with" : "проблема з" },
   
 ];
