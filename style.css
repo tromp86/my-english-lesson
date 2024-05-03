@@ -300,7 +300,7 @@ footer {
 @media (max-width: 768px) {
   .containerMain {
     /* position: relative; */
-    height: 2150px; 
+    height: 150px; 
     /* height: 100%; */
     /* +60 or -60*/
   }

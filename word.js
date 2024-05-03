@@ -155,6 +155,9 @@ const allWord = [
   { "no offense" : "неображайся" },
   { worst : "найгірший" },
   { bother : "турбувати" },
+  { definitely : "безумовно" },
+  { "issues with" : "проблема з" },
+  
 ];
 
 const reWord = [
