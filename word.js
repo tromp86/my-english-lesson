@@ -150,9 +150,21 @@ const allWord = [
   { "it does"  : "це робить" }, 
   { chose : "обрав" }, 
   { upset : "засмучений" }, 
-  { offense : "ображатись" }, 
-  { doubt : "сумніваюсь" }, 
+  { doubt : "сумніватись" }, 
   { seem : "здаваєця" }, 
+  { embarrassed : "ніяково" }, 
+  { polite : "вічливий" }, 
+  { decisive : "вирішальний" }, 
+  { attentive : "уважний" }, 
+  { valid : "дійсний" }, 
+  { significant : "значний" }, 
+  { sufficient : "достатній" }, 
+  { worrying : "хвилюватись" }, 
+  { sly : "хитрий" }, 
+  { sprang : "вистрибнув" }, 
+  { burst : "лопнути" }, 
+  { laid : "закладено" }, 
+  { hang : "повісити" }, 
 ];
 
 const reWord = [
@@ -256,9 +268,9 @@ const irregularVerbs = [
 
 
 
-
-
-
+// 
+// поки нетреба 
+// 
 
 
 
