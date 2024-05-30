@@ -5,7 +5,7 @@ import {
   allWordQuestion,
   reWord,
   eating,
-  number,
+  fastWord,
   months,
   weather,
   gettingAround,
@@ -131,7 +131,7 @@ createWordElements(allWordQuestion, "output-allWordQuestion");
 createWordElements(reWord, "output-reWord");
 createWordElements(englishPrime, "output-prime");
 createWordElements(irregularVerbs, "irregularVerbs");
-// createWordElements(number, "number");
+createWordElements(fastWord, "fastWord");
 // createWordElements(months, "months");
 // createWordElements(weather, "weather");
 // createWordElements(eating, "eating");

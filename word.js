@@ -45,7 +45,6 @@ const allWord = [
   { changing: "змінюється" },
   { successful: "успішний" },
   { keep: "зберігати" },
-  { believe: "вірити" },
   { matter: "має значення" },
   { through: "крізь" },
   { allows: "дозволяє" },
@@ -265,7 +264,25 @@ const irregularVerbs = [
   {"wear/wore/worn" : "носити одяг"},
   {"prepay/prepaid" : "платити перед"},
 ]
-
+const fastWord = [
+  { come: "приходити" },
+  { leave: "піти" },
+  { mean: "значення" },
+  { believe: "вірити" },
+  { carry: "нести" },
+  { wear: "носити" },
+  { turn: "обертатися" },
+  { begin: "починати" },
+  { seem: "здаєця" },
+  { hear: "чути" },
+  { study: "вчитись" },
+  { lose: "втрачати" },
+  { pass: "пройти" },
+  { stay: "залишатися" },
+  { agree: "погоджуватись" },
+  { allow: "дозволяє" },
+  { follow: "слідкувати" },
+];
 
 
 // 
@@ -402,24 +419,7 @@ const allWordQuestion = [
   {"Are you taking any medicine?" : " ви приймаєте якісь ліки"},
 ];
 
-const number = [
-  { twelve: "12" },
-  { thirteen: "13" },
-  { fourteen: "14" },
-  { fifteen: "15" },
-  { sixteen: "16" },
-  { seventeen: "17" },
-  { eighteen: "18" },
-  { nineteen: "19" },
-  { twenty: "20" },
-  { thirty: "30" },
-  { forty: "40" },
-  { fifty: "50" },
-  { sixty: "60" },
-  { seventy: "70" },
-  { eighty: "80" },
-  { ninety: "90" },
-];
+
 
 const months = [
   { January: "січень" },
@@ -733,7 +733,7 @@ export {
   allWordQuestion,
   reWord,
   eating,
-  number,
+  fastWord,
   months,
   weather,
   gettingAround,
