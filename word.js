@@ -230,10 +230,8 @@ const irregularVerbs = [
   {"run/ran/run" : "бігти/бігав/біг"},
   {"sit/sat" : "сет"},
   {"read/read" : "ред"},
-  {"have/had" : "мати"},
   {"get/got" : "отримати"},
   {"put/put" : "поставити"},
-  {"go/went" : "йти"},
   {"take/took/taken" : "взяти, взяв"},
   {"fall/fell/fallen" : "падати, падав"},
   {"have/hes" : "мати, мав"},
@@ -241,7 +239,6 @@ const irregularVerbs = [
   {"cook/cooked" : "готую, готував"},
   {"buy/bought" : "купувати, купив"},
   {"cost/cost" : "коштувати, коштувало"},
-  {"drive/drove" : "водити, водив"},
   {"find/found" : "знаходити, знайшов"},
   {"feel/felt" : "відчувати"},
   {"forget/forgot/forgotten" : "забувати, забув"},
@@ -322,6 +319,7 @@ const fastWord = [
   { wonder: "дивуватися" },
   { appreciate: "цінувати" },
   { apologize: "вибачатись" },
+  { curiosity: "допитливість" },
 ];
 
 
