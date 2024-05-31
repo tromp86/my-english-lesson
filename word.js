@@ -160,7 +160,9 @@ const allWord = [
   { sprang : "вистрибнув" }, 
   { burst : "лопнути" }, 
   { laid : "закладено" }, 
-  { hang : "повісити" }, 
+  { hang : "повісити" },
+  { "put on"  : "одягати" },  
+  { "write down"  : "записувати" },  
 ];
 
 const reWord = [
