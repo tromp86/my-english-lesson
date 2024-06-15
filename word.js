@@ -163,6 +163,12 @@ const allWord = [
   { hang : "повісити" },
   { "put on"  : "одягати" },  
   { "write down"  : "записувати" },  
+  { "throw out"  : "викидати" },  
+  { deserve  : "заслуговувати" },  
+  { across  : "через" },  
+  { faucet  : "кран" },  
+  { taste  : "смак" },  
+  { ordinary  : "обикновенний" },  
 ];
 
 const reWord = [
@@ -321,6 +327,12 @@ const fastWord = [
   { wonder: "дивуватися" },
   { appreciate: "цінувати" },
   { apologize: "вибачатись" },
+  { curiosity: "допитливість" },
+  { curiosity: "допитливість" },
+  { curiosity: "допитливість" },
+  { curiosity: "допитливість" },
+  { curiosity: "допитливість" },
+  { curiosity: "допитливість" },
   { curiosity: "допитливість" },
 ];
 
