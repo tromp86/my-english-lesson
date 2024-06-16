@@ -107,7 +107,7 @@ function createWordElements(wordArray, outputDivId) {
 
       divDefinition.appendChild(p);
 
-      if (outputDivId === "output-allWordPhrases") {
+      if (outputDivId === "output-allWordPhrases" || outputDivId === "output-allWordQuestion") {
         divOuter.classList.add("boxPhrases", "box--grow");
         divOuter.appendChild(h2);
         divOuter.appendChild(divDefinition);

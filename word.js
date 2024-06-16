@@ -390,6 +390,15 @@ const allWordPhrases = [
   { "Nice to meet you": " приємно познайомитись" },
   { "Thanks a lot": "дуже дякую" },
   { "to eat healthily": "здорове харчування" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
+  { "That's a great point": "Це чудова точка зору" },
 ];
 
 const allWordQuestion = [
@@ -468,6 +477,7 @@ const allWordQuestion = [
   {"May I?" : "чи можу я?"},
   {"Could you?" : "можете ви?"},
   {"Are you taking any medicine?" : " ви приймаєте якісь ліки"},
+  {"Are you sure?" : " ти впевнений?"},
 ];
 
 
