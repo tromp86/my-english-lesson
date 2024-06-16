@@ -477,7 +477,7 @@ const allWordQuestion = [
   {"May I?" : "чи можу я?"},
   {"Could you?" : "можете ви?"},
   {"Are you taking any medicine?" : " ви приймаєте якісь ліки"},
-  {"Are you sure?" : " ти впевнений?"},
+  {"What's going on?" : "що відбувається?"},
 ];
 
 
