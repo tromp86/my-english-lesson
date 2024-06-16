@@ -345,7 +345,6 @@ const fastWord = [
 
 
 const allWordPhrases = [
-  { "let's go": "ходімо" },
   { "let's do it": "зробимо це" },
   { "come here": "підійди сюди" },
   { "follow me": "йди за мною" },

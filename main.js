@@ -75,11 +75,6 @@ function createWordElements(wordArray, outputDivId) {
   if (outputDiv) {
     wordArray.forEach((obj) => {
       const divOuter = document.createElement("div");
-      divOuter.classList.add("box", "box--grow");
-
-      const divWord = document.createElement("div");
-      divWord.classList.add("word");
-
       const key = Object.keys(obj)[0];
       const value = obj[key];
 
@@ -111,13 +106,25 @@ function createWordElements(wordArray, outputDivId) {
       });
 
       divDefinition.appendChild(p);
-      divWord.appendChild(h2);
-      divWord.appendChild(divDefinition);
-      divWord.appendChild(divButton);
-      divButton.appendChild(button);
-      divOuter.appendChild(divWord);
 
-      if (outputDiv) {
+      if (outputDivId === "output-allWordPhrases") {
+        divOuter.classList.add("boxPhrases", "box--grow");
+        divOuter.appendChild(h2);
+        divOuter.appendChild(divDefinition);
+        divOuter.appendChild(divButton);
+        divButton.appendChild(button);
+        outputDiv.appendChild(divOuter);
+      } else {
+        divOuter.classList.add("box", "box--grow");
+
+        const divWord = document.createElement("div");
+        divWord.classList.add("word");
+        divWord.appendChild(h2);
+        divWord.appendChild(divDefinition);
+        divWord.appendChild(divButton);
+        divButton.appendChild(button);
+        divOuter.appendChild(divWord);
+
         outputDiv.appendChild(divOuter);
       }
     });
@@ -191,13 +198,6 @@ document.getElementById("fix").addEventListener("click", function() {
   const audio = document.getElementById("audioFix");
   audio.play();
 });
-// const scrollAnimations = (entries) => {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting && entry.intersectionRatio > 0.9) {
-//       entry.target.classList.add("box--visible");
-//     } 
-//   });
-// };
 
 
 const scrollAnimations = async (entries) => {
@@ -205,10 +205,6 @@ const scrollAnimations = async (entries) => {
     if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
       entry.target.classList.add("box--visible");
     } 
-    // else {
-    //   await new Promise((resolve) => setTimeout(resolve, 0));
-    //   entry.target.classList.remove("box--visible");
-    // }
   };
 
   await Promise.all(entries.map(animateEntry));
@@ -222,6 +218,11 @@ const observer = new IntersectionObserver(scrollAnimations, options);
 const boxes = document.querySelectorAll(".box");
 boxes.forEach((box) => {
   observer.observe(box);
+});
+
+const boxesPhrases = document.querySelectorAll(".boxPhrases");
+boxesPhrases.forEach((boxPhrases) => {
+  observer.observe(boxPhrases);
 });
 
 const boxesWords = document.querySelectorAll(".boxWords");
