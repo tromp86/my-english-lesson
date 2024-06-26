@@ -170,6 +170,8 @@ const allWord = [
   { taste: "смак" },
   { ordinary: "обикновенний" },
   { suddenly: "раптово" },
+  { frustration: "розчарований" },
+  { Instead: "замість" },
 ];
 
 const reWord = [
@@ -409,12 +411,6 @@ const fastWord = [
   { appreciate: "цінувати" },
   { apologize: "вибачатись" },
   { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
-  { curiosity: "допитливість" },
 ];
 
 //
@@ -454,7 +450,6 @@ const allWordPhrases = [
   { "I'm not really shure": "я не впевнений" },
   { "I am going to swim": "я збираюсь плавати" },
   { "Suit yourself": "як хочеш" },
-  { "Mateo's cousin": "двоюрідний брат Матео" },
   { "I'm not following": "я не слідкую" },
   { "I'll give it a shot": "я спробую" },
   { "Take your time": "не спіши" },
@@ -464,18 +459,12 @@ const allWordPhrases = [
   { "Here we go": "ми вже йдемо" },
   { "to spend tіme with": "проводити час з" },
   { "to enjoy yourself": " приємно проводити час" },
-  { "Nice to meet you": " приємно познайомитись" },
+
   { "Thanks a lot": "дуже дякую" },
   { "to eat healthily": "здорове харчування" },
   { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
-  { "That's a great point": "Це чудова точка зору" },
+  { "Let figure out": "давай вирішимо" },
+  { "Let me know": "дай мені знати" },
 ];
 
 const allWordQuestion = [
@@ -513,7 +502,6 @@ const allWordQuestion = [
   { "Do you need anything?": "Тобі щось потрібно?" },
   { "How are you?": "Як ти?" },
   { "How do you feel?": "Як ти себе почуваєш?" },
-  { "How do you like…?": "Як тобі подобається...?" },
   { "How long does it take…?": "Скільки це займає часу...?" },
   { "How much is it?": "Скільки це коштує?" },
   { "What’s the time?": "Котра година?" },
@@ -527,36 +515,21 @@ const allWordQuestion = [
   { "What do you mean by…?": "Що ви маєте на увазі, коли говорите про...?" },
   { "What are you talking about?": "Про що ви говорите?" },
   { "What are you up to?": "З чим ви зараз зайняті?" },
-  { "What are your hobbies?": "Які у вас хобі?" },
   { "What did you say?": "Що ви сказали?" },
   { "What do you need?": "Чого вам потрібно?" },
-  { "What do you think?": "Що ви думаєте?" },
   { "What do you want to do?": "Що ви хочете робити?" },
-  { "What do you want?": "Чого ви хочете?" },
   { "What’s the weather like?": "Яка зараз погода?" },
-  { "Would you care for … dinner?": "Чи б ви не відмовилися від ...?" },
+
   { "How do you open this?": "Як це відкривається?" },
   { "What is going on?": "Що відбувається?" },
   { "When is the train leaving?": "Коли відходить поїзд?" },
-  {
-    "How can I go to the town center?": "Як я можу дістатися до центру міста?",
-  },
   { "Where did you get it?": "Де ви це взяли?" },
   { "Where are you going?": "Куди ви йдете?" },
   { "Are you coming with me?": "Ти йдеш зі мною?" },
   { "How long will you stay?": "Скільки ти залишишся?" },
-  { "Now, who wants to save the world?": "А тепер, хто хоче врятувати світ?" },
-  {
-    "Which sweater goes best with these pants?":
-      "Який светр найкраще підходить до цих штанів?",
-  },
   { "Who is coming to the play?": "Хто йде на виставу?" },
   { "There are a lot bears": "там багато медведів" },
   { "There's more to food in the village": "У селі більше їжі" },
-  {
-    "There are some clean corners in the a":
-      "У квартирі є кілька чистих куточків",
-  },
   { "How much milk?": "незліченний іменник" },
   { "How many pancakes?": "зліченний іменник" },
   { "May I?": "чи можу я?" },
