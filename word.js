@@ -171,7 +171,27 @@ const allWord = [
   { ordinary: "обикновенний" },
   { suddenly: "раптово" },
   { frustration: "розчарований" },
-  { Instead: "замість" },
+  { instead: "замість" },
+  { encourage: "підбадьорити" },
+  { aviod: "уникати" },
+  { express: "виражати" },
+  { delay: "затримка" },
+  { heavy: "важкий" },
+  { declare: "оголосити" },
+  { breathe: "дихати" },
+  { accuse: "звинувачувати" },
+  { elect: "обирати" },
+  { boil: "кипіти" },
+  { differ: "відрізнятися" },
+  { chased: "переслідуати" },
+  { request: "запит" },
+  { partisipate: "брати участь" },
+  { obviously: "очевидно" },
+  { either: "також" },
+  { exact: "точний" },
+  { strict: "строгий" },
+  { sharp: "гострий" },
+  { interaction: "перебивати" },
 ];
 
 const reWord = [
@@ -418,6 +438,8 @@ const fastWord = [
 //
 
 const allWordPhrases = [
+  { "let figure out": "давай вирішимо" },
+  { "let me know": "дай мені знати" },
   { "let's do it": "зробимо це" },
   { "come here": "підійди сюди" },
   { "follow me": "йди за мною" },
