@@ -1,7 +1,6 @@
 html {
   padding: 0;
   margin: 0;
-  height: 100vh;
   scroll-behavior: smooth;
   user-select: none;
 }
@@ -54,14 +53,12 @@ body.dark-theme h1 {
   height: 2em;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -105,7 +102,7 @@ body.dark-theme h1 {
 }
 
 .switch-label {
-  margin-right: 10px; /* Відступ між текстом і перемикачем */
+  margin-right: 10px;
   font-size: 16px;
 }
 
@@ -113,16 +110,9 @@ b {
   font-size: 1.1rem;
   letter-spacing: 3px;
 }
-.wrap {
-  margin-bottom: 20px;
-}
+
 .containerMain {
   position: relative;
-  /* height: 620px;    */
-  /* +60 or -60*/
-}
-.container {
-  height: 110px;
 }
 span {
   position: relative;
@@ -134,7 +124,7 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: 3.8rem;
-  margin: 15px;
+  margin: 5px;
   margin: auto;
   text-shadow: 0px 3px 3px rgba(45, 37, 113, 0.5);
   transform: skew(-5deg, -5deg);
@@ -346,7 +336,6 @@ button:active {
   background-color: white !important;
   color: silver !important;
   visibility: hidden;
-  /* cursor: not-allowed; */
 }
 
 
@@ -404,14 +393,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .containerMain {
-    /* position: relative; */
-    height: 310px; 
-    /* height: 100%; */
-    /* +60 or -60*/
+  .boxWords{
+    height: 100%;
+    margin-top: -20px;
   }
-  .container {
-    height: 130px;
+  .box--grow.box--visible{
+    margin-top: 20px;
   }
   footer {
     padding: 10px;
