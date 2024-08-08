@@ -9,10 +9,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="main">
-    <div class="wrap containerMain">
-      <span>version 2.4 update 2024-08-05</span>
-      <br>
+    <section id="main" class="light-theme">
+      <div class="wrap containerMain">
+        <span>version 3.0 update 2024-08-08</span>
+        <br>
+        <div class="theme-switch-container">
+            <label for="theme-toggle" class="switch-label">☀️</label>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
       <!-- <span>I fix scrollAnimations</span> -->
     <div  class="boxWords boxWords--move-right">
       <a href="#main-footer" class="tooltip" id="delayedLink">
@@ -308,6 +316,15 @@
 
   </body>
   <script type="module" src="./main.js"></script>
+
+  <script> 
+  function toggleTheme(){
+    const section = document.section;
+    section.classList.toggle('dark-theme');
+    section.classList.toggle('light-theme');
+  }
+</script>
+
 </html>
 
 

@@ -229,3 +229,32 @@ const boxesWords = document.querySelectorAll(".boxWords");
 boxesWords.forEach((boxWords) => {
   observer.observe(boxWords);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeLabel = document.querySelector('.switch-label');
+  const body = document.body;
+
+  // Функція для оновлення теми та підпису
+  function updateTheme(isDark) {
+      if (isDark) {
+          body.classList.replace('light-theme', 'dark-theme');
+          themeLabel.textContent = '🌚';
+          localStorage.setItem('theme', 'dark');
+      } else {
+          body.classList.replace('dark-theme', 'light-theme');
+          themeLabel.textContent = '☀️';
+          localStorage.setItem('theme', 'light');
+      }
+  }
+
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  const isDark = savedTheme === 'dark';
+  themeToggle.checked = isDark;
+  body.classList.add(`${savedTheme}-theme`);
+  themeLabel.textContent = isDark ? '🌚' : '☀️';
+
+  themeToggle.addEventListener('change', function() {
+      updateTheme(themeToggle.checked);
+  });
+});
