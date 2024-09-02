@@ -192,6 +192,11 @@ const allWord = [
   { strict: "строгий" },
   { sharp: "гострий" },
   { interaction: "перебивати" },
+  { inspired: "натхненний" },
+  { "artificial intelligence": "штучний інтелект" },
+  { "consider": "розглянути" },
+  { "essentials": "предмет необхідн" },
+  { "according": "відповідно" },
 ];
 
 const reWord = [
@@ -237,6 +242,8 @@ const reWord = [
   { excess: "надлишок" },
   { tear: "рвати" },
   { "to make out": "оформляти" },
+  { "shed": "сарай" },
+
 ];
 const irregularVerbs = [
   { "bring/brought": "[брот]приносити" },
@@ -485,8 +492,9 @@ const allWordPhrases = [
   { "Thanks a lot": "дуже дякую" },
   { "to eat healthily": "здорове харчування" },
   { "That's a great point": "Це чудова точка зору" },
-  { "Let figure out": "давай вирішимо" },
-  { "Let me know": "дай мені знати" },
+  { "supposed to be": "має бути" },
+  { "It's a kind of": "це свого роду" },
+  { "It's a type of": "це різновид" },
 ];
 
 const allWordQuestion = [
