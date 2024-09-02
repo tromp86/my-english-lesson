@@ -236,13 +236,18 @@ const reWord = [
   { become: "ставати" },
   { "issues with": "ставати" },
   { relived: "полегшений" },
-  { located: "розташований" },
+  { located: "розташований" }, 
+  
   { observe: "спостерігати" },
   { "to get out": "виходити" },
   { excess: "надлишок" },
   { tear: "рвати" },
   { "to make out": "оформляти" },
   { "shed": "сарай" },
+  { "match": "сірник" },
+  { "determined": "рішучий" },
+  { "renew": "відновлювати" },
+  { "mishit": "промахнутися" },
 
 ];
 const irregularVerbs = [
