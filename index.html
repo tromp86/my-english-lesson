@@ -11,16 +11,25 @@
   <body>
     <section id="main" class="light-theme">
       <div class="wrap containerMain">
-        <span>version 3.2 update 2024-09-01</span>
+        <span>version 3.3 update 2025-03-28</span>
         <br>
         <div class="theme-switch-container">
-            <label for="theme-toggle" class="switch-label">☀️</label>
-            <label class="switch">
-                <input type="checkbox" id="theme-toggle">
-                <span class="slider"></span>
-            </label>
+          <label for="theme-toggle" class="switch-label">☀️</label>
+      <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"></span>
+      </label>
+      <span class="span">Settings Style</span>
+
+          <label for="transparency-toggle" class="switch-label" id="icon">🙈</label>
+      <label class="switch">
+        <input type="checkbox" id="transparency-toggle" onchange="TransparencySwitch('section17', 'section3','section7', 'hidden')">
+          <span class="slider"></span>
+      </label>
+      <span class="span">Settings Transparency</span>
         </div>
-    </div>
+  
+</div>
       <!-- <span>I fix scrollAnimations</span> -->
     <div  class="boxWords boxWords--move-right">
       <a href="#main-footer" class="tooltip" id="delayedLink">
@@ -31,16 +40,18 @@
       <audio id="audioClickButton" src="button.mp3"></audio>
       <audio id="audioClickMain" src="buttonMain.mp3"></audio>
       <audio id="audioFix" src="audioFix.mp3"></audio>
-    <!-- <a href="#section1"><button><b>main word</b></button></a> -->
+   
     <a href="#section2"><button><b>phrases</b></button></a>
-    <a href="#section3"><button><b>question</b></button></a>
-    <a href="#section7"><button><b>reWord</b></button></a>
+    <a href="#section8"><button><b>short</b></button></a>
+    <a href="#section3"><button class="hidden" id="section3"><b>question</b></button></a>
+    <a href="#section7"><button class="hidden" id="section7"><b>reWord</b></button></a>
+    <a href="#section11"><button><b>irregular</b></button></a>
+    <a href="#section17"><button class="hidden" id="section17"><b>fastWord</b></button></a>
+         <!-- <a href="#section1"><button><b>main word</b></button></a> -->
     <!-- <a href="#section9.1"><button><b>weather</b></button></a> -->
     <!-- <a href="#section9.2"><button><b>eating</b></button></a> -->
     <!-- <a href="#section9.3"><button><b>gettingAround</b></button></a> -->
     <!-- <a href="#section10"><button><b>prime</b></button></a> -->
-    <a href="#section11"><button><b>irregular</b></button></a>
-    <a href="#section17"><button><b>fastWord</b></button></a>
     <!-- <a href="#section-word0"><button><b>Ти щось робив</b><h4>Did you ... ?</h4></button></a>
     <a href="#section-word1"><button><b>Ти щось(дія)</b><h4>Do you ... ?</h4></button></a>
     <a href="#section-word2"><button><b>Ти щось(хочеш)</b><h4>Do you want/like ?</h4></button></a>
@@ -91,6 +102,14 @@
 </section>
 
 <div class="container">
+  <div id="section8" class="boxWords boxWords--move-right"><h3>phrases short</h3>
+</div>
+</div>
+<section>
+  <div id="output-littlePhrases"></div>
+</section>
+
+<div class="container">
   <div id="section3" class="boxWords boxWords--move-right"><h3>Question</h3>
   </div>
 </div>
@@ -107,13 +126,7 @@
     <div id="output-reWord"></div>
 </section>
 
-<!-- <div class="container">
-  <div id="section10" class="boxWords boxWords--move-right"><h3>Prime English</h3>
-  </div>
-</div>
-<section>
-    <div id="output-prime"></div>
-</section> -->
+
 
 <div class="container">
   <div id="section11" class="boxWords boxWords--move-right"><h3>Irregular Verbs</h3>
@@ -130,6 +143,14 @@
 <section>
     <div id="fastWord"></div>
 </section>
+
+<!-- <div class="container">
+  <div id="section10" class="boxWords boxWords--move-right"><h3>Prime English</h3>
+  </div>
+</div>
+<section>
+    <div id="output-prime"></div>
+</section> -->
 
 <!-- <div class="container">
   <div id="section9" class="boxWords boxWords--move-right"><h3>Months</h3>
@@ -155,13 +176,13 @@
     <div id="eating"></div>
 </section> -->
 
-<div class="container">
+<!-- <div class="container">
   <div id="section9.3" class="boxWords boxWords--move-right"><h3>Around</h3>
   </div>
 </div>
 <section>
     <div id="gettingAround"></div>
-</section>
+</section> -->
 
 <!-- <div class="container">
   <div id="section-word0" class="boxWords boxWords--move-right"><h3>Ти щось робив</h3>
@@ -310,7 +331,7 @@
   </a>
   </div>
     <div class="footer-content">
-      <p>&copy; 2024 Tromp86 Website. All rights reserved.</p>
+      <p>&copy; 2025 Tromp86 Website. All rights reserved.</p>
     </div>
   </footer>
 
@@ -323,6 +344,15 @@
     section.classList.toggle('dark-theme');
     section.classList.toggle('light-theme');
   }
+
+  function TransparencySwitch(...ids) {
+    ids.forEach(id => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.classList.toggle('hidden');
+        }
+    });
+}
 </script>
 
 </html>

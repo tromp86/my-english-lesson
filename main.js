@@ -1,13 +1,12 @@
 import {
   // allWord50,
+  littlePhrases,
   allWord,
   allWordPhrases,
   allWordQuestion,
   reWord,
   eating,
   fastWord,
-  months,
-  weather,
   gettingAround,
   englishPrime,
   irregularVerbs,
@@ -107,7 +106,7 @@ function createWordElements(wordArray, outputDivId) {
 
       divDefinition.appendChild(p);
 
-      if (outputDivId === "output-allWordPhrases" || outputDivId === "output-allWordQuestion" || outputDivId === "irregularVerbs") {
+      if (outputDivId === "output-allWordPhrases", "output-littlePhrases" || outputDivId === "output-allWordQuestion", "output-littlePhrases" || outputDivId === "irregularVerbs") {
         divOuter.classList.add("boxPhrases", "box--grow");
         divOuter.appendChild(h2);
         divOuter.appendChild(divDefinition);
@@ -132,6 +131,7 @@ function createWordElements(wordArray, outputDivId) {
 }
 
 // createWordElements(allWord50, "output-allWord50");
+createWordElements(littlePhrases, "output-littlePhrases");
 createWordElements(allWord, "output-allWord");
 createWordElements(allWordPhrases, "output-allWordPhrases");
 createWordElements(allWordQuestion, "output-allWordQuestion");
@@ -257,4 +257,18 @@ document.addEventListener('DOMContentLoaded', function() {
   themeToggle.addEventListener('change', function() {
       updateTheme(themeToggle.checked);
   });
+
+  const toggleInput = document.getElementById('transparency-toggle');
+        const iconLabel = document.getElementById('icon');
+
+        toggleInput.addEventListener('change', () => {
+            if (toggleInput.checked) {
+                iconLabel.textContent = '👁️'; // Зміна на "🙈"
+            } else {
+                iconLabel.textContent = '🙈'; // Зміна на "👁️"
+            }
+        });
 });
+
+
+

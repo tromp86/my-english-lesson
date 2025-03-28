@@ -18,7 +18,9 @@ section {
   flex-direction: column;
   align-items: flex-start;
 }
-
+.hidden {
+  display: none;
+}
 body.light-theme {
   background-color: rgb(236, 241, 242);
   color: black;
@@ -52,13 +54,18 @@ body.dark-theme h1 {
   width: 3.5em;
   height: 2em;
 }
-
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+.hidden-state {
+  visibility: hidden;
+}
 
+.visible-state {
+  visibility: visible;
+}
 .slider {
   position: absolute;
   cursor: pointer;
@@ -102,8 +109,9 @@ body.dark-theme h1 {
 }
 
 .switch-label {
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 16px;
+  padding-left: 15px;
 }
 
 b {
@@ -119,6 +127,12 @@ span {
   right: 0px;
   color: slategray;
   letter-spacing: 2px;
+}
+.span{
+  margin-right: 5px;
+  transform: translateX(5px);
+  font-size: 13px;
+  width: 100px;
 }
 h1 {
   width: 100%;
