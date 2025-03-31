@@ -234,15 +234,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const themeToggle = document.getElementById('theme-toggle');
   const themeLabel = document.querySelector('.switch-label');
   const body = document.body;
+  const content = document.querySelector('.content');
+  const collapsible = document.querySelector('.collapsible');
 
   // Функція для оновлення теми та підпису
   function updateTheme(isDark) {
       if (isDark) {
           body.classList.replace('light-theme', 'dark-theme');
+          content.classList.replace('light-theme', 'dark-theme');
+          collapsible.classList.replace('light-theme', 'dark-theme');
           themeLabel.textContent = '🌚';
           localStorage.setItem('theme', 'dark');
       } else {
           body.classList.replace('dark-theme', 'light-theme');
+          content.classList.replace('dark-theme', 'light-theme');
+          collapsible.classList.replace('dark-theme', 'light-theme');
           themeLabel.textContent = '☀️';
           localStorage.setItem('theme', 'light');
       }
@@ -252,6 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const isDark = savedTheme === 'dark';
   themeToggle.checked = isDark;
   body.classList.add(`${savedTheme}-theme`);
+  content.classList.add(`${savedTheme}-theme`);
   themeLabel.textContent = isDark ? '🌚' : '☀️';
 
   themeToggle.addEventListener('change', function() {
@@ -270,5 +277,52 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
+document.querySelectorAll(".collapsible").forEach(button => {
+  button.addEventListener("click", () => {
+      button.classList.toggle("active");
+      const content = button.nextElementSibling;
+      content.style.display = content.style.display === "block" ? "none" : "block";
+  
+      button.textContent = button.classList.contains("active") ? "▲" : "▼";
+  });
+});
 
+document.getElementById("toggleOverlay").addEventListener("click", function () {
+    document.getElementById("overlay").style.display = "block";
+    document.body.style.overflow = "hidden";
+});
 
+document.getElementById("closeOverlay").addEventListener("click", function () {
+    document.getElementById("overlay").style.display = "none";
+    document.body.style.overflow = "auto"; 
+});
+
+document.getElementById("toggleBtn").addEventListener("click", () => {
+  document.getElementById("myDIV").classList.toggle("hidden");
+});
+document.getElementById("copyIcon").addEventListener("click", function() {
+  var text = document.getElementById("copyText").innerText;
+
+  // Копіюємо текст в буфер обміну за допомогою Clipboard API
+  navigator.clipboard.writeText(text)
+    .then(function() {
+      // Створюємо кастомне повідомлення
+      var alertBox = document.createElement("div");
+      alertBox.classList.add("custom-alert");
+      alertBox.innerText = "Address copied: " + text;
+      document.body.appendChild(alertBox);
+
+      // Автоматичне закриття сповіщення через 3 секунди
+      setTimeout(function() {
+        alertBox.remove();
+      }, 3000);
+    })
+    .catch(function(err) {
+      // Якщо виникла помилка при копіюванні
+      console.error("Error copying text: ", err);
+    });
+});
+
+document.getElementById("toggleBtn").addEventListener("click", function() {
+  this.classList.toggle("rotate");
+});

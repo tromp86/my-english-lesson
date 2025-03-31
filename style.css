@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+  color: inherit;
+}
 html {
   padding: 0;
   margin: 0;
@@ -18,6 +22,174 @@ section {
   flex-direction: column;
   align-items: flex-start;
 }
+.counterDiv{
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  /* background: rgba(0, 0, 0, 0.7); */
+  color: rgb(69, 79, 90);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+/* верхня кнопка */
+.collapsible {
+  background-color: #eeeeee00;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  margin: auto;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content{
+  padding: 0 12px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  color: rgb(69, 79, 90);
+}
+.content p{
+  width: 100%;
+}
+/* верхня кнопка */
+
+/* попа ап */
+#overlay {
+  position: fixed;
+  /* overflow-y: scroll; */
+  display: none; 
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  box-shadow: 5px 5px 0px rgb(69, 79, 90);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #2c2451;
+  background: none;
+  border: none;
+}
+
+.close-btn:active {
+  transform: scale(0.8);
+}
+#toggleBtn {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+#myDIV {
+  position: fixed;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2c2451;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+.chip {
+  display: flex;
+  align-items: center; 
+}
+.chip img {
+  margin-right: 10px; 
+}
+.text {
+  font-size: 16px;
+  cursor: pointer;
+}
+.copy-icon {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.copy-img {
+  transition: transform 0.3s ease; /* Додаємо плавний ефект трансформації */
+}
+.copy-img:hover {
+  transform: scale(1.1); /* Збільшуємо іконку при наведенні */
+  cursor: pointer; /* Курсор стає у вигляді руки при наведенні */
+}
+.custom-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 9999;
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#toggleBtn img {
+  transition: transform 1s ease;
+}
+#toggleBtn.rotate img {
+  transform: rotate(45deg);
+}
+/* попа ап */
 .hidden {
   display: none;
 }
@@ -25,11 +197,9 @@ body.light-theme {
   background-color: rgb(236, 241, 242);
   color: black;
 }
-
 body.dark-theme {
   background-color: rgb(67, 75, 76);
 }
-
 a {
   text-decoration: none;
   color: #2c2451;
@@ -46,7 +216,13 @@ body.dark-theme h1 {
   color: rgb(61, 206, 255);
   text-shadow: 0px 3px 3px rgb(0, 63, 80); 
 }
-
+.content.dark-theme{
+  color: silver;
+  background-color: transparent;
+} 
+.collapsible.dark-theme{
+  color: silver;
+}
 .switch {
   font-size: 17px;
   position: relative;
@@ -103,7 +279,6 @@ body.dark-theme h1 {
   transform: translateX(1.5em);
 }
 .theme-switch-container {
-  padding-top: 15px;
   display: flex;
   align-items: center;
 }
@@ -125,14 +300,15 @@ b {
 span {
   position: relative;
   right: 0px;
-  color: slategray;
+
   letter-spacing: 2px;
 }
 .span{
   margin-right: 5px;
   transform: translateX(5px);
   font-size: 13px;
-  width: 100px;
+  width: 80px;
+  color: slategray;
 }
 h1 {
   width: 100%;
@@ -382,6 +558,29 @@ footer {
 .definition {
   margin-top: 5px;
 }
+.popUp {
+  width: 100%;
+  height: 40px;                    
+  border-radius: 10px; /* Робимо кнопку круглою */
+  color: slategray; /* Колір тексту */
+  font-size: 30px; /* Розмір шрифту */
+  font-weight: bold;
+  font-size: 18px;
+  border: none; /* Без меж */
+  cursor: pointer; /* Курсор при наведенні */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Тінь для кнопки */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анімація для повороту та тіні */
+}
+
+.popUp:hover {
+  transform: scale(1.05); /* Збільшуємо кнопку на 10% при наведенні */
+  box-shadow: #2c2451; 
+}
+.popUp{
+  /* position: absolute; */
+  top: 15px;
+  right: 5px;
+}
 .clickCount{
   background-color: #333333 ;
   color: #f2f2f2;
@@ -399,11 +598,18 @@ footer {
   color: #e20000;
   font-size: 17px;
 }
-#smile{
+.smile1{
   font-size: 2.0rem;
 }
-#text{
+.text1{
   font-size: 1.2rem;
+}
+
+.smile2{
+  font-size: 1.3rem;
+}
+.text2{
+  font-size: 0.8rem;
 }
 
 @media (max-width: 768px) {
@@ -422,5 +628,15 @@ footer {
   }
   #smile{
     margin-top: 15px;
+  }
+  .popUp{                 
+    border-radius: 10px; /* Робимо кнопку круглою */
+    font-size: 17px;
+    top: 180px;
+    margin: auto;
+    /* transform: translateX(300px); */
+  }
+  .collapsible {
+    margin-bottom: 10px;
   }
 }

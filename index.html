@@ -9,9 +9,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <!-- <div >
+      <p id="main-footer">чим більше ти незнаєш слів, тим гірший буде результат</p>
+      <h5 id="clickCount">0</h5>
+      <p id="smile" class="smile2"></p>
+      <p id="text" class="text2"></p>
+    </div> -->
+    
     <section id="main" class="light-theme">
+      <button type="button" class="collapsible headerTop light-theme">▼</button>
+      <span class="content light-theme">
+        <p>При натисканні кнопки "I do not remember", ви втрачаєте бали, що негативно впливає на ваш фінальний результат. Намагайтеся згадати всі слова, щоб досягти найкращого можливого результату.</p>
+        <p>Щоб подивитись результат нажми на English на головній сторінці</p>
+        <span>version 3.4 update 2025-03-29</span>
+      </span>
+      <button id="toggleOverlay" class="popUp">About</button>
       <div class="wrap containerMain">
-        <span>version 3.3 update 2025-03-28</span>
+        
+        <div id="overlay">
+          <span id="closeOverlay" class="close-btn">&times;</span>
+          <!-- ціле меню -->
+          <div id="text">
+            <a href="timeLine.html"><h1>Перейти на Timeline</h1></a>
+            <!-- <button onclick="myFunction()">Click Me</button> -->
+        </div>
+        <button id="toggleBtn">
+          <img id="coffee" src="./coffee.png" alt="Coffee">
+        </button>
+        <div id="myDIV" class="hidden"><div class="chip">
+          <img src="./bitcoin.png" alt="Person" width="96" height="96">
+          <span class="text" id="copyText">bc1qqhnyshydkc3mc6ukwxugzpts2ucshndd4xjlu4</span>
+          <span id="copyIcon" class="copy-icon" title="Copy">
+            <img src="copy.png" alt="Copy" class="copy-img" style="width: 40px; height: 40px;">
+          </span>
+        </div></div>
+  
+           <!-- ціле меню -->
+        </div>
+        
         <br>
         <div class="theme-switch-container">
           <label for="theme-toggle" class="switch-label">☀️</label>
@@ -26,7 +62,7 @@
         <input type="checkbox" id="transparency-toggle" onchange="TransparencySwitch('section17', 'section3','section7', 'hidden')">
           <span class="slider"></span>
       </label>
-      <span class="span">Settings Transparency</span>
+      <span class="span">Show link Transparency</span>
         </div>
   
 </div>
@@ -326,8 +362,8 @@
     <p id="main-footer" class="counter-p">тут можеш подивитись кількість слів які ти незнаєш</p>
     <a href="#main">
     <h3 class="clickCount" id="clickCount">0</h3>
-    <p id="smile"></p>
-    <p id="text"></p>
+    <p id="smile" class="smile1"></p>
+    <p id="text" class="text1"></p>
   </a>
   </div>
     <div class="footer-content">
@@ -353,6 +389,7 @@
         }
     });
 }
+
 </script>
 
 </html>
