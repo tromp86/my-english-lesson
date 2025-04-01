@@ -565,24 +565,41 @@ footer {
   width: 100%;
   height: 40px;                    
   border-radius: 10px; /* Робимо кнопку круглою */
-  color: slategray; /* Колір тексту */
-  font-size: 30px; /* Розмір шрифту */
-  font-weight: bold;
-  font-size: 18px;
-  border: none; /* Без меж */
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  transition: border-color 0.5s ease;
   cursor: pointer; /* Курсор при наведенні */
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Тінь для кнопки */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 2, 0.385); */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анімація для повороту та тіні */
+  background: rgb(236, 241, 242);
+  transition: color 2s ease;
 }
+.popUp.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(45deg, #ffffff, #ffffff);
 
+}
 .popUp:hover {
-  transform: scale(1.05); /* Збільшуємо кнопку на 10% при наведенні */
+  transform: scale(1.02); /* Збільшуємо кнопку на 10% при наведенні */
   box-shadow: #2c2451; 
 }
 .popUp{
   /* position: absolute; */
   top: 15px;
   right: 5px;
+}
+.tooltipHow{
+  position: relative;
+  color: slategray;
+  font-size: 16px;
+  letter-spacing: -1px;
+  transform: translateY(-1px);
 }
 .clickCount{
   background-color: #333333 ;

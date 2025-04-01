@@ -70,127 +70,127 @@ function updateClickCount() {
 switch (clickCount) {
   case 0:
       smile.textContent = "🧠";
-      textCounter.textContent = "Genius! You know everything!";
+      textCounter.textContent = "Геніально! Ти знаєш усе!";
       break;
   case 5:
       smile.textContent = "🤓";
-      textCounter.textContent = "Amazing! Your knowledge is at a pro level!";
+      textCounter.textContent = "Неймовірно! Твій рівень знань – професійний!";
       break;
   case 10:
       smile.textContent = "😏";
-      textCounter.textContent = "Well, you're clearly not a beginner!";
+      textCounter.textContent = "Ну, ти точно не новачок!";
       break;
   case 15:
       smile.textContent = "🙂";
-      textCounter.textContent = "Not bad, but there's room for improvement!";
+      textCounter.textContent = "Непогано, але є куди рости!";
       break;
   case 20:
       smile.textContent = "😐";
-      textCounter.textContent = "Mediocre... but not a disaster.";
+      textCounter.textContent = "Посередньо... але не катастрофа.";
       break;
   case 25:
       smile.textContent = "🤨";
-      textCounter.textContent = "Are you sure about your knowledge?";
+      textCounter.textContent = "Ти впевнений у своїх знаннях?";
       break;
   case 30:
       smile.textContent = "😅";
-      textCounter.textContent = "A bit weak...";
+      textCounter.textContent = "Трішки слабенько...";
       break;
   case 35:
       smile.textContent = "😕";
-      textCounter.textContent = "Maybe you should review the material?";
+      textCounter.textContent = "Може, варто повторити матеріал?";
       break;
   case 40:
       smile.textContent = "😬";
-      textCounter.textContent = "Things are not looking great...";
+      textCounter.textContent = "Справи йдуть не дуже добре...";
       break;
   case 45:
       smile.textContent = "😢";
-      textCounter.textContent = "You definitely need to study more.";
+      textCounter.textContent = "Тобі точно потрібно більше вчитися.";
       break;
   case 50:
       smile.textContent = "🥴";
-      textCounter.textContent = "Your teacher is crying right now.";
+      textCounter.textContent = "Твій учитель зараз плаче.";
       break;
   case 55:
       smile.textContent = "🤢";
-      textCounter.textContent = "Your knowledge is in danger.";
+      textCounter.textContent = "Твої знання в небезпеці.";
       break;
   case 60:
       smile.textContent = "🤡";
-      textCounter.textContent = "Are you serious? This is really bad.";
+      textCounter.textContent = "Ти серйозно? Це дуже погано.";
       break;
   case 65:
       smile.textContent = "🐌";
-      textCounter.textContent = "Your knowledge level is like a snail's.";
+      textCounter.textContent = "Рівень твоїх знань – як у равлика.";
       break;
   case 70:
       smile.textContent = "🦥";
-      textCounter.textContent = "Looks like you're just lazy.";
+      textCounter.textContent = "Схоже, ти просто лінишся.";
       break;
   case 75:
       smile.textContent = "💤";
-      textCounter.textContent = "Are you asleep? Start studying!";
+      textCounter.textContent = "Ти заснув? Починай вчитися!";
       break;
   case 80:
       smile.textContent = "💩";
-      textCounter.textContent = "This is a real disaster...";
+      textCounter.textContent = "Це справжня катастрофа...";
       break;
   case 85:
       smile.textContent = "🚨";
-      textCounter.textContent = "Open a textbook immediately!";
+      textCounter.textContent = "Негайно відкрий підручник!";
       break;
   case 90:
       smile.textContent = "🔥";
-      textCounter.textContent = "It's not knowledge that's burning, it's a bridge in your brain.";
+      textCounter.textContent = "Горить не знання, а міст у твоєму мозку.";
       break;
   case 95:
       smile.textContent = "💀";
-      textCounter.textContent = "Knowledge is dead... RIP.";
+      textCounter.textContent = "Знання померли... Спочивай з миром.";
       break;
   case 100:
       smile.textContent = "👀";
-      textCounter.textContent = "Did you even study these words?";
+      textCounter.textContent = "Ти взагалі вчив ці слова?";
       break;
   case 105:
       smile.textContent = "🙈";
-      textCounter.textContent = "Even a monkey knows more!";
+      textCounter.textContent = "Навіть мавпа знає більше!";
       break;
   case 110:
       smile.textContent = "🚫";
-      textCounter.textContent = "Censored! This is too horrible!";
+      textCounter.textContent = "Цензура! Це занадто жахливо!";
       break;
   case 115:
       smile.textContent = "🥵";
-      textCounter.textContent = "You melted my brain...";
+      textCounter.textContent = "Ти розплавив мені мозок...";
       break;
   case 120:
       smile.textContent = "🤯";
-      textCounter.textContent = "This level is insane... in a bad way.";
+      textCounter.textContent = "Цей рівень просто божевільний... у поганому сенсі.";
       break;
   case 125:
       smile.textContent = "☠️";
-      textCounter.textContent = "Doctors do not recommend such results.";
+      textCounter.textContent = "Лікарі не рекомендують такі результати.";
       break;
   case 130:
       smile.textContent = "🤮";
-      textCounter.textContent = "Your knowledge is toxic.";
+      textCounter.textContent = "Твої знання – отруйні.";
       break;
   case 135:
       smile.textContent = "🛑";
-      textCounter.textContent = "Stop! Go study words!";
+      textCounter.textContent = "Зупинись! Йди вчи слова!";
       break;
   case 140:
       smile.textContent = "🗿";
-      textCounter.textContent = "Your knowledge level = Moai statue.";
+      textCounter.textContent = "Твій рівень знань = статуя Моая.";
       break;
   case 145:
       smile.textContent = "🌚";
-      textCounter.textContent = "Darkness... complete darkness...";
+      textCounter.textContent = "Темрява... повна темрява...";
       break;
   case 150:
       smile.textContent = "🤡";
-      textCounter.textContent = "The clown has fully revealed himself.";
+      textCounter.textContent = "Клоун повністю розкрився.";
       break;
   default:
       break;
@@ -477,3 +477,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startBlinking();
 });
+
+const button = document.getElementById("toggleOverlay");
+const texts = ["about", "read more", "більше інформації", "читати ще"];
+let index = 0;
+
+setInterval(() => {
+  button.classList.add("gradient-text"); // Додаємо градієнт до букв
+
+  setTimeout(() => {
+      index = (index + 1) % texts.length;
+      button.textContent = texts[index];
+
+      button.classList.remove("gradient-text"); // Через 500 мс повертаємо стандартний колір
+  }, 600);
+}, 7000);
