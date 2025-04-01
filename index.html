@@ -21,8 +21,8 @@
       <button type="button" class="collapsible headerTop light-theme">▼</button>
       <span class="content light-theme">
         <p>При натисканні кнопки "I do not remember", ви втрачаєте бали, що негативно впливає на ваш фінальний результат. Намагайтеся згадати всі слова, щоб досягти найкращого можливого результату.</p>
-        <p>Щоб подивитись результат нажми на English на головній сторінці</p>
-        <span>version 3.4 update 2025-03-29</span>
+        <p>Перевір свій результат нажавши на English на головній сторінці</p>
+        <span>version 3.41 update 2025-03-31</span>
       </span>
       <button id="toggleOverlay" class="popUp">About</button>
       <div class="wrap containerMain">
@@ -30,10 +30,23 @@
         <div id="overlay">
           <span id="closeOverlay" class="close-btn">&times;</span>
           <!-- ціле меню -->
-          <div id="text">
-            <a href="timeLine.html"><h1>Перейти на Timeline</h1></a>
+          <div class="row">
+            <div class="columnLink">
+              <div class="card">
+                <img src="./Screenshot1.png" alt="Jane" class="responsive-img">
+                <div class="containerLink">
+                  <h5>NoPunIntended</h5>
+                  <p class="title">A collection of puns and witty stories.</p>
+                </div>
+              </div>
+              <button class="button2">
+                <a href="https://tromp86.github.io/NoPunIntended/">Link</a>
+              </button>
+            </div>
+          </div>
+            <!-- <a href="timeLine.html"><h1>Перейти на Timeline</h1></a> -->
             <!-- <button onclick="myFunction()">Click Me</button> -->
-        </div>
+        
         <button id="toggleBtn">
           <img id="coffee" src="./coffee.png" alt="Coffee">
         </button>
@@ -59,7 +72,7 @@
 
           <label for="transparency-toggle" class="switch-label" id="icon">🙈</label>
       <label class="switch">
-        <input type="checkbox" id="transparency-toggle" onchange="TransparencySwitch('section17', 'section3','section7', 'hidden')">
+        <input type="checkbox" id="transparency-toggle" onchange="TransparencySwitch('section17_duble', 'section3_duble','section7_duble', 'hidden')">
           <span class="slider"></span>
       </label>
       <span class="span">Show link Transparency</span>
@@ -79,10 +92,10 @@
    
     <a href="#section2"><button><b>phrases</b></button></a>
     <a href="#section8"><button><b>short</b></button></a>
-    <a href="#section3"><button class="hidden" id="section3"><b>question</b></button></a>
-    <a href="#section7"><button class="hidden" id="section7"><b>reWord</b></button></a>
+    <a href="#section3"><button class="hidden" id="section3_duble"><b>question</b></button></a>
+    <a href="#section7"><button class="hidden" id="section7_duble"><b>reWord</b></button></a>
     <a href="#section11"><button><b>irregular</b></button></a>
-    <a href="#section17"><button class="hidden" id="section17"><b>fastWord</b></button></a>
+    <a href="#section17"><button class="hidden" id="section17_duble"><b>fastWord</b></button></a>
          <!-- <a href="#section1"><button><b>main word</b></button></a> -->
     <!-- <a href="#section9.1"><button><b>weather</b></button></a> -->
     <!-- <a href="#section9.2"><button><b>eating</b></button></a> -->
@@ -362,12 +375,12 @@
     <p id="main-footer" class="counter-p">тут можеш подивитись кількість слів які ти незнаєш</p>
     <a href="#main">
     <h3 class="clickCount" id="clickCount">0</h3>
-    <p id="smile" class="smile1"></p>
-    <p id="text" class="text1"></p>
+    <p id="smile" class="smile"></p>
+    <p id="text" class="textCounter"></p>
   </a>
   </div>
     <div class="footer-content">
-      <p>&copy; 2025 Tromp86 Website. All rights reserved.</p>
+      <p>&copy; 2025 <a href="https://github.com/tromp86" target="_blank" id="blinkText">Tromp86</a> Website. All rights reserved.</p>
     </div>
   </footer>
 

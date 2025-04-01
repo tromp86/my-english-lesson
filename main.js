@@ -32,40 +32,169 @@ import {
 const clickCountElement = document.getElementById("clickCount");
 let clickCount = 0;
 const smile = document.getElementById("smile");
-const text = document.getElementById("text");
+const textCounter = document.getElementById("text");
 
 function updateClickCount() {
   clickCount++;
   clickCountElement.textContent = clickCount;
 
-  switch (clickCount) {
-    case 10:
-      smile.textContent = "😁";
-      text.textContent = "super you very strong";
+//   switch (clickCount) {
+//     case 10:
+//       smile.textContent = "😁";
+//       text.textContent = "super you very strong";
+//       break;
+//     case 20:
+//       smile.textContent = "😊";
+//       text.textContent = "could be better";
+//       break;
+//     case 30:
+//       smile.textContent = "🤨";
+//       text.textContent = "not good";
+//       break;
+//     case 40:
+//       smile.textContent = "😢";
+//       text.textContent = "very bad";
+//       break;
+//     case 50:
+//       smile.textContent = "😪";
+//       text.textContent = "pick up your ass and go learn";
+//       break;
+//     case 60:
+//       smile.textContent = "🤡";
+//       text.textContent = "ти клоун?";
+//       break;
+//     default:
+//       break;
+//   }
+// }
+switch (clickCount) {
+  case 0:
+      smile.textContent = "🧠";
+      textCounter.textContent = "Genius! You know everything!";
       break;
-    case 20:
-      smile.textContent = "😊";
-      text.textContent = "could be better";
+  case 5:
+      smile.textContent = "🤓";
+      textCounter.textContent = "Amazing! Your knowledge is at a pro level!";
       break;
-    case 30:
+  case 10:
+      smile.textContent = "😏";
+      textCounter.textContent = "Well, you're clearly not a beginner!";
+      break;
+  case 15:
+      smile.textContent = "🙂";
+      textCounter.textContent = "Not bad, but there's room for improvement!";
+      break;
+  case 20:
+      smile.textContent = "😐";
+      textCounter.textContent = "Mediocre... but not a disaster.";
+      break;
+  case 25:
       smile.textContent = "🤨";
-      text.textContent = "not good";
+      textCounter.textContent = "Are you sure about your knowledge?";
       break;
-    case 40:
+  case 30:
+      smile.textContent = "😅";
+      textCounter.textContent = "A bit weak...";
+      break;
+  case 35:
+      smile.textContent = "😕";
+      textCounter.textContent = "Maybe you should review the material?";
+      break;
+  case 40:
+      smile.textContent = "😬";
+      textCounter.textContent = "Things are not looking great...";
+      break;
+  case 45:
       smile.textContent = "😢";
-      text.textContent = "very bad";
+      textCounter.textContent = "You definitely need to study more.";
       break;
-    case 50:
-      smile.textContent = "😪";
-      text.textContent = "pick up your ass and go learn";
+  case 50:
+      smile.textContent = "🥴";
+      textCounter.textContent = "Your teacher is crying right now.";
       break;
-    case 60:
+  case 55:
+      smile.textContent = "🤢";
+      textCounter.textContent = "Your knowledge is in danger.";
+      break;
+  case 60:
       smile.textContent = "🤡";
-      text.textContent = "ти клоун?";
+      textCounter.textContent = "Are you serious? This is really bad.";
       break;
-    default:
+  case 65:
+      smile.textContent = "🐌";
+      textCounter.textContent = "Your knowledge level is like a snail's.";
       break;
-  }
+  case 70:
+      smile.textContent = "🦥";
+      textCounter.textContent = "Looks like you're just lazy.";
+      break;
+  case 75:
+      smile.textContent = "💤";
+      textCounter.textContent = "Are you asleep? Start studying!";
+      break;
+  case 80:
+      smile.textContent = "💩";
+      textCounter.textContent = "This is a real disaster...";
+      break;
+  case 85:
+      smile.textContent = "🚨";
+      textCounter.textContent = "Open a textbook immediately!";
+      break;
+  case 90:
+      smile.textContent = "🔥";
+      textCounter.textContent = "It's not knowledge that's burning, it's a bridge in your brain.";
+      break;
+  case 95:
+      smile.textContent = "💀";
+      textCounter.textContent = "Knowledge is dead... RIP.";
+      break;
+  case 100:
+      smile.textContent = "👀";
+      textCounter.textContent = "Did you even study these words?";
+      break;
+  case 105:
+      smile.textContent = "🙈";
+      textCounter.textContent = "Even a monkey knows more!";
+      break;
+  case 110:
+      smile.textContent = "🚫";
+      textCounter.textContent = "Censored! This is too horrible!";
+      break;
+  case 115:
+      smile.textContent = "🥵";
+      textCounter.textContent = "You melted my brain...";
+      break;
+  case 120:
+      smile.textContent = "🤯";
+      textCounter.textContent = "This level is insane... in a bad way.";
+      break;
+  case 125:
+      smile.textContent = "☠️";
+      textCounter.textContent = "Doctors do not recommend such results.";
+      break;
+  case 130:
+      smile.textContent = "🤮";
+      textCounter.textContent = "Your knowledge is toxic.";
+      break;
+  case 135:
+      smile.textContent = "🛑";
+      textCounter.textContent = "Stop! Go study words!";
+      break;
+  case 140:
+      smile.textContent = "🗿";
+      textCounter.textContent = "Your knowledge level = Moai statue.";
+      break;
+  case 145:
+      smile.textContent = "🌚";
+      textCounter.textContent = "Darkness... complete darkness...";
+      break;
+  case 150:
+      smile.textContent = "🤡";
+      textCounter.textContent = "The clown has fully revealed himself.";
+      break;
+  default:
+      break;
+}
 }
 
 function createWordElements(wordArray, outputDivId) {
@@ -325,4 +454,26 @@ document.getElementById("copyIcon").addEventListener("click", function() {
 
 document.getElementById("toggleBtn").addEventListener("click", function() {
   this.classList.toggle("rotate");
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const blinkText = document.getElementById("blinkText");
+
+  function startBlinking() {
+      setTimeout(() => {
+          let blinkCount = 0;
+          const blinkInterval = setInterval(() => {
+              blinkText.style.color = (blinkCount % 3 === 0) ? "aquamarine" : ""; // Чергування кольору
+              blinkCount++;
+
+              if (blinkCount === 4) { // Двічі миготить за 2 сек (500мс х 4)
+                  clearInterval(blinkInterval);
+                  blinkText.style.color = ""; // Повернення до стандартного кольору
+                  startBlinking(); // Повторення циклу
+              }
+          }, 300);
+      }, 3000);
+  }
+
+  startBlinking();
 });
